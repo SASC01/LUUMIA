@@ -1,0 +1,75 @@
+.parcel-section-nav {
+  border-block-end: 1px solid var(--line);
+  margin-block-end: clamp(1.2rem, 3vw, 2.1rem);
+}
+.parcel-section-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .15rem clamp(.4rem, 2vw, 1.35rem);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.parcel-section-nav a {
+  display: flex;
+  align-items: center;
+  min-block-size: 2.9rem;
+  padding: .55rem .45rem;
+  border-block-end: .18rem solid transparent;
+  color: var(--muted);
+  line-height: 1.2;
+  text-decoration: none;
+  font-weight: 600;
+  overflow-wrap: normal;
+}
+.parcel-section-nav a:hover { color: var(--green); text-decoration: underline; }
+.parcel-section-nav a[aria-current="page"] {
+  border-color: var(--leaf);
+  color: var(--green);
+  font-weight: 700;
+}
+.parcel-view { min-inline-size: 0; scroll-margin-top: 1rem; }
+.parcel-view[hidden] { display: none; }
+.parcel-section-title { margin-block-end: clamp(1rem, 2.8vw, 1.65rem); }
+.parcel-section-title p { color: var(--muted); margin-block-end: .28rem; }
+.parcel-section-title h1 {
+  color: var(--green);
+  font-size: clamp(1.9rem, 4.3vw, 2.9rem);
+  letter-spacing: -.025em;
+}
+.parcel-view-blocks, .parcel-fold-body { display: grid; min-inline-size: 0; gap: 1rem; }
+.parcel-fold {
+  min-inline-size: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.parcel-fold > summary {
+  min-block-size: 2.75rem;
+  padding: .75rem var(--panel-space);
+  color: var(--green);
+  font-weight: 700;
+}
+.parcel-fold > summary:hover { text-decoration: underline; }
+.parcel-fold > summary span { display: block; color: var(--muted); font-size: .94rem; font-weight: 400; }
+.parcel-fold-body { padding: 0 var(--panel-space) var(--panel-space); }
+.parcel-fold-body > .panel {
+  padding: 1rem 0 0;
+  border-width: 1px 0 0;
+  border-radius: 0;
+}
+.parcel-fold-body > .panel + .panel { margin-block-start: .3rem; }
+.parcel-section-note { max-inline-size: 65ch; color: var(--muted); }
+.parcel-plan-settings {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem 1rem;
+}
+.parcel-plan-settings > p { color: var(--muted); }
+.parcel-planner-block { min-inline-size: 0; }
+@media (max-width: 37rem) {
+  .parcel-section-nav ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .15rem .3rem; }
+  .parcel-section-nav li { display: flex; }
+  .parcel-section-nav a { inline-size: 100%; font-size: .94rem; min-block-size: 3rem; }
+}

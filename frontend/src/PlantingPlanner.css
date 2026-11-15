@@ -1,0 +1,218 @@
+.sowing-planner {
+  --parcel-paper: #f4f3e7;
+  --parcel-edge: #ced7c9;
+  --parcel-empty: #e6e8d7;
+  overflow-wrap: anywhere;
+  margin-block: 0 1.3rem;
+}
+.sowing-lead, .sowing-sketch-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .45rem 1rem;
+}
+.sowing-lead h2, .sowing-sketch-heading h3 { margin: 0; color: var(--green); }
+.sowing-lead h2 { font-size: clamp(1.55rem, 3.5vw, 2.05rem); }
+.sowing-lead p { color: var(--muted); }
+.sowing-steps {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(.25rem, 1.3vw, .9rem);
+  list-style: none;
+  padding: 0 0 .55rem;
+  margin: 1.3rem 0 1.55rem;
+  border-block-end: .18rem solid var(--line);
+}
+.sowing-steps::after {
+  position: absolute;
+  inset-inline-start: 0;
+  inset-block-end: -.18rem;
+  content: "";
+  block-size: .18rem;
+  inline-size: 33.333%;
+  background: var(--leaf);
+  transition: inline-size .22s ease;
+}
+.sowing-steps[data-step="1"]::after { inline-size: 66.667%; }
+.sowing-steps[data-step="2"]::after { inline-size: 100%; }
+.sowing-steps li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .25rem .5rem;
+  min-width: 0;
+  padding: .15rem 0;
+  color: var(--muted);
+}
+.sowing-steps li[aria-current="step"] { font-weight: 700; color: var(--green); }
+.sowing-steps span {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.65rem;
+  min-height: 1.65rem;
+  line-height: 1;
+  border-radius: 50%;
+  background: var(--parcel-paper);
+}
+.sowing-steps [aria-current="step"] span { color: var(--green); background: var(--accent); }
+.sowing-layout { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(1rem, 4vw, 2.6rem); align-items: start; }
+.sowing-layout form { min-width: 0; }
+.sowing-layout form > h3 { margin: .1rem 0 .85rem; color: var(--green); font-size: clamp(1.25rem, 2.15vw, 1.62rem); }
+.sowing-input { display: grid; gap: .24rem; color: var(--green); font-weight: 700; min-width: 0; }
+.sowing-input input, .sowing-input select {
+  width: 100%;
+  min-height: 2.9rem;
+  padding: .5rem .65rem;
+  border: 1px solid #a6b8a8;
+  border-radius: var(--control-radius);
+  background: var(--surface);
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+.sowing-input input[aria-invalid="true"] { border-color: #995129; }
+#sowing-area { max-width: 13rem; }
+.sowing-copy { margin-top: .55rem; color: #42564a; }
+.sowing-area-warning { color: var(--amber); }
+.sowing-area-warning:not(:empty) { margin-top: .45rem; font-weight: 600; }
+.sowing-actions { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: .8rem; }
+.sowing-actions .button { text-align: center; }
+.sowing-balance { margin: 0 0 .65rem; color: var(--green); font-weight: 700; }
+.sowing-zones { display: grid; gap: .68rem; }
+.sowing-zone {
+  display: grid;
+  gap: .32rem;
+  padding: .35rem .75rem .55rem;
+  border: 1px solid var(--parcel-edge);
+  border-radius: .55rem;
+  background: #f7f8f2;
+}
+.sowing-zone legend { margin: 0; padding: 0 .2rem; }
+.sowing-zone-fields { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: .55rem; }
+.sowing-terms { margin-top: .65rem; }
+.sowing-term-crop { margin-top: .8rem; }
+.sowing-term-crop .sowing-zone-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; }
+.sowing-term { display: grid; align-content: start; gap: .45rem; min-width: 0; }
+.sowing-capacity-note { display: grid; gap: .2rem; margin: .15rem 0 .5rem; padding: .55rem .7rem; background: #e7f0e5; border-radius: .4rem; color: var(--green); }
+.sowing-text-button {
+  justify-self: start;
+  min-height: 2.75rem;
+  max-width: 100%;
+  padding: .1rem 0;
+  border: 0;
+  color: var(--leaf);
+  background: transparent;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: .16em;
+}
+.sowing-text-button:hover { text-decoration-thickness: .12em; }
+.sowing-sketch {
+  --sketch-radius: 1rem;
+  --sketch-pad: .55rem;
+  min-width: 0;
+  border: 1px solid var(--parcel-edge);
+  border-radius: var(--sketch-radius);
+  background: var(--parcel-paper);
+  padding: clamp(.8rem, 2vw, 1.2rem);
+}
+.sowing-sketch-heading { color: var(--green); align-items: baseline; }
+.sowing-sketch-heading strong, .sowing-map-key strong, .sowing-yield strong, .sowing-harvest strong { font-variant-numeric: tabular-nums; }
+.sowing-map {
+  position: relative;
+  padding: var(--sketch-pad);
+  margin: .75rem 0 .45rem;
+  border-radius: var(--sketch-radius);
+  background: #eae9d9;
+}
+.sowing-map-tracks {
+  min-height: clamp(8.5rem, 20vw, 17rem);
+  display: flex;
+  border-radius: calc(var(--sketch-radius) - var(--sketch-pad));
+  overflow: hidden;
+  background: repeating-linear-gradient(120deg, transparent 0 13px, #b9c7ae 14px 15px, transparent 16px 20px), var(--parcel-empty);
+}
+.sowing-map-zone {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  min-width: 0;
+  background: repeating-linear-gradient(var(--row-angle, 114deg), transparent 0 14px, var(--crop-row, #8a9a7b) 15px 16px, transparent 17px 25px), var(--crop-bed, #c9d6be);
+  overflow: hidden;
+  transition: flex-basis .2s ease;
+}
+.sowing-map-zone + .sowing-map-zone { box-shadow: -1px 0 0 rgba(31,49,38,.42); }
+.sowing-map-zone span { padding: .15rem .48rem; border-radius: .27rem; background: var(--green); color: #fff; font-weight: 700; }
+.sowing-map-editable .sowing-map-zone { transition: none; }
+.sowing-boundaries { position: absolute; inset: var(--sketch-pad); pointer-events: none; }
+.sowing-boundary {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  top: 50%;
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: ew-resize;
+  pointer-events: auto;
+  touch-action: none;
+  user-select: none;
+}
+.sowing-boundary span {
+  display: grid;
+  place-items: center;
+  min-inline-size: 1.95rem;
+  min-block-size: 1.95rem;
+  border: 2px solid var(--green);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--green);
+  font-weight: 700;
+}
+.sowing-boundary:where(:hover, :active, :focus-visible) span { color: var(--surface); background: var(--green); }
+.sowing-boundary:where(:active, :focus-visible) { z-index: 1; }
+.sowing-keyboard-help { display: block; padding-block-start: .1rem; font-size: .92em; }
+@media (pointer: coarse) { .sowing-keyboard-help { font-size: .85em; } }
+.sowing-sketch [data-crop="calabaza"] { --crop-bed: #a9c8a5; --crop-row: #698565; }
+.sowing-sketch [data-crop="frijol"] { --crop-bed: #e4cba3; --crop-row: #ae896a; --row-angle: 62deg; }
+.sowing-sketch [data-crop="maiz"] { --crop-bed: #dacf97; --crop-row: #9d8d55; --row-angle: 95deg; }
+.sowing-sketch [data-crop="saladette"] { --crop-bed: #d2a79d; --crop-row: #a46f61; --row-angle: 42deg; }
+.sowing-sketch figcaption { color: var(--muted); }
+.sowing-map-key, .sowing-yield { list-style: none; padding: 0; margin: .7rem 0 0; }
+.sowing-map-key li, .sowing-yield li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, auto);
+  gap: .4rem 1rem;
+  padding: .38rem 0;
+  border-top: 1px solid var(--parcel-edge);
+}
+.sowing-map-key li strong { text-align: right; }
+.sowing-map-key-label { display: flex; align-items: baseline; gap: .35rem; }
+.sowing-key-mark { flex: 0 0 .75em; height: .75em; background: var(--crop-bed, var(--parcel-empty)); border: 1px solid var(--crop-row, #728468); border-radius: .18rem; }
+.sowing-map-key .sowing-overflow { display: block; color: var(--amber); }
+.sowing-harvest { display: grid; gap: .22rem; padding: .65rem .85rem; background: #e7f0e5; border-radius: .5rem; color: var(--green); }
+.sowing-harvest strong { font-size: clamp(1.65rem, 3vw, 2.5rem); line-height: 1.1; }
+.sowing-yield li > div { display: grid; gap: .1rem; min-width: 0; }
+.sowing-yield li > div:last-child { text-align: right; }
+.sowing-yield li span { color: var(--muted); }
+.sowing-version-notice, .sowing-draft-state { margin-top: .65rem; color: var(--muted); }
+.sowing-version-notice { padding-inline-start: .7rem; border-inline-start: .18rem solid var(--accent); }
+@media (prefers-reduced-motion: reduce) {
+  .sowing-steps::after, .sowing-map-zone { transition: none; }
+}
+@media (max-width: 52rem) {
+  .sowing-layout { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 34rem) {
+  .sowing-zone-fields, .sowing-term-crop .sowing-zone-fields { grid-template-columns: minmax(0, 1fr); }
+  .sowing-actions .button { flex: 1 1 100%; }
+}
+@media (max-width: 20rem) {
+  .sowing-steps { gap: .2rem; }
+  .sowing-steps li { display: block; }
+  .sowing-steps span { display: grid; width: min-content; margin-bottom: .18rem; }
+}

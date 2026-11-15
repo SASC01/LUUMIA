@@ -1,0 +1,46 @@
+{
+  "source_name": "USDA FAS · PSD Online",
+  "source_url": "https://fas.usda.gov/psdonline",
+  "download_url": "https://apps.fas.usda.gov/psdonline/downloads/psd_grains_pulses_csv.zip",
+  "retrieved_at": "2026-11-14T16:57:19.571748Z",
+  "published_at": "2026-11-10T16:41:44Z",
+  "geography": "México · nacional",
+  "country_code": "MX",
+  "commodity": "Maíz",
+  "indicator": "Producción nacional",
+  "unit": "miles de toneladas métricas",
+  "rows": [
+    {
+      "market_year": 2022,
+      "value": "28077.0000",
+      "revision_year": 2025,
+      "revision_month": 7
+    },
+    {
+      "market_year": 2023,
+      "value": "23550.0000",
+      "revision_year": 2026,
+      "revision_month": 2
+    },
+    {
+      "market_year": 2024,
+      "value": "23050.0000",
+      "revision_year": 2026,
+      "revision_month": 10
+    },
+    {
+      "market_year": 2025,
+      "value": "24900.0000",
+      "revision_year": 2026,
+      "revision_month": 11
+    },
+    {
+      "market_year": 2026,
+      "value": "24000.0000",
+      "revision_year": 2026,
+      "revision_month": 11
+    }
+  ],
+  "scope_note": "Cada campaña comercial de maíz en México comienza en octubre y termina en septiembre. Las cifras de USDA son estimaciones nacionales sujetas a revisión. Se muestran como contexto, fuera del cálculo de precios, rendimientos y márgenes de Don Tino.",
+  "archive_sha256": "325cdf09f530780b484d36ea7797df603702f90c186cda2ff36c160f8b9ba612"
+}

@@ -1,0 +1,80 @@
+{
+  "granule_id": "HLS.L30.T16QBG.2023054T162247.v2.0",
+  "product": "HLSL30",
+  "version": "2.0",
+  "acquired_at": "2023-02-23T16:22:47.661343Z",
+  "retrieved_at": "2026-11-14T16:24:55+00:00",
+  "platform": "Landsat 9",
+  "resolution_m": 30,
+  "source_url": "https://doi.org/10.5067/HLS/HLSL30.002",
+  "item_url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/hls2-l30/items/HLS.L30.T16QBG.2023054T162247.v2.0",
+  "mask_source_url": "https://hls.gsfc.nasa.gov/data-products/",
+  "mask_method": "Fmask de HLS v2.0. Se excluyen nubes, adyacencia, sombra, nieve o hielo, agua y aerosol alto, además de datos ausentes o con NDVI inválido.",
+  "ndvi_method": "(B05 − B04) / (B05 + B04) a partir de reflectancia de superficie.",
+  "evidence_tier": "derived",
+  "coverage": {
+    "valid_pixels": 76,
+    "total_pixels": 148,
+    "fraction": 0.513514
+  },
+  "ndvi": {
+    "min": 0.1884,
+    "median": 0.4387,
+    "max": 0.7636
+  },
+  "legend": {
+    "min": -0.2,
+    "max": 0.9,
+    "colors": [
+      "#d4ad77",
+      "#e5d69f",
+      "#a0bf7e",
+      "#4c8556",
+      "#174f42"
+    ],
+    "no_data_color": "#dce0e1",
+    "parcel_outline_color": "#ffffff"
+  },
+  "parcel_geometry_kind": "synthetic",
+  "count_method": "Centros de píxel dentro del polígono sintético; cobertura espacial de una escena.",
+  "image_url": "/hls/don-tino-ndvi.png",
+  "image_width": 546,
+  "image_height": 588,
+  "scaling": {
+    "B04": {
+      "scale": 0.0001,
+      "offset": 0.0
+    },
+    "B05": {
+      "scale": 0.0001,
+      "offset": 0.0
+    }
+  },
+  "mask_breakdown": {
+    "fmask_no_data": 0,
+    "cloud_adjacency_shadow_snow_ice_or_water": 0,
+    "high_aerosol": 72,
+    "invalid_spectral_data": 0
+  },
+  "window": {
+    "crs": "EPSG:32616",
+    "columns": 39,
+    "rows": 42,
+    "column_offset": 54,
+    "row_offset": 466
+  },
+  "assets": {
+    "B04": {
+      "url": "https://hls2euwest.blob.core.windows.net/hls2/L30/16/Q/BG/2023/02/23/HLS.L30.T16QBG.2023054T162247.v2.0/HLS.L30.T16QBG.2023054T162247.v2.0.B04.tif",
+      "sha256": "828a344933b78e8f47a37ef0f9b59bba9c1b7b682869feb7bc2c4fa5ba3dd6f1"
+    },
+    "B05": {
+      "url": "https://hls2euwest.blob.core.windows.net/hls2/L30/16/Q/BG/2023/02/23/HLS.L30.T16QBG.2023054T162247.v2.0/HLS.L30.T16QBG.2023054T162247.v2.0.B05.tif",
+      "sha256": "5963e6a8418b30e7359a4cb4819c5d3007c78472add90f0dfc495e59846258b3"
+    },
+    "Fmask": {
+      "url": "https://hls2euwest.blob.core.windows.net/hls2/L30/16/Q/BG/2023/02/23/HLS.L30.T16QBG.2023054T162247.v2.0/HLS.L30.T16QBG.2023054T162247.v2.0.Fmask.tif",
+      "sha256": "ea6890c47082b9331597d677b4cce82907bf9eeb22d59a38aaedbed8d719a523"
+    }
+  }
+}

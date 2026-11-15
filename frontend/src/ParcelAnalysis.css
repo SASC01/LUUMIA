@@ -1,0 +1,16 @@
+.parcel-raw-values { margin: .4rem 0; font-variant-numeric: tabular-nums; }
+.parcel-raw-values > div {
+  display: grid;
+  grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr);
+  gap: .25rem 1rem;
+  padding: .65rem 0;
+  border-block-start: 1px solid var(--line);
+}
+.parcel-raw-values dt { font-weight: 600; }
+.parcel-raw-values dd { margin: 0; min-inline-size: 0; }
+.parcel-raw-values dd p { margin-block-start: .2rem; }
+.parcel-raw-values code { overflow-wrap: anywhere; }
+.parcel-raw-download { margin-block-start: .9rem; }
+@media (max-width: 32rem) {
+  .parcel-raw-values > div { grid-template-columns: minmax(0, 1fr); }
+}

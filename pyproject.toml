@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luumia"
+version = "0.2.0"
+description = "LuumIA · Rotaciones y escenarios comerciales para agricultura de temporal"
+requires-python = ">=3.12"
+dependencies = ["fastapi>=0.120,<1", "pydantic>=2.12,<3", "psycopg[binary]>=3.3.8,<4", "uvicorn>=0.38,<1", "httpx>=0.28,<1", "defusedxml>=0.7,<1", "python-multipart>=0.0.26,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["backend/src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["backend/src"]

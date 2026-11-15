@@ -1,0 +1,538 @@
+{
+  "contract_version": "0.1.0",
+  "request": {
+    "contract_version": "0.1.0",
+    "parcel_id": "parcel-don-tino",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -89.843,
+            19.74
+          ],
+          [
+            -89.84,
+            19.74
+          ],
+          [
+            -89.84,
+            19.7436
+          ],
+          [
+            -89.843,
+            19.7436
+          ],
+          [
+            -89.843,
+            19.74
+          ]
+        ]
+      ]
+    },
+    "period": {
+      "start": "2026-10-26",
+      "end": "2026-11-01"
+    },
+    "variables": [
+      "precipitation",
+      "air_temperature_mean"
+    ]
+  },
+  "observations": [
+    {
+      "id": "power-day-1fcad41b4c459313029e8227",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 5.83,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-26",
+        "end": "2026-10-26"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-77e02e0d7e751f3072a7234a",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 0.45,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-27",
+        "end": "2026-10-27"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-4ccd511579e0cd534a8b66d5",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 1.1,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-28",
+        "end": "2026-10-28"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-2400d58151faa5f59fb643b2",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 0.07,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-29",
+        "end": "2026-10-29"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-67b2236259ddc62bcc3e0737",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 4.7,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-30",
+        "end": "2026-10-30"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-3fdab6aa8c4c8ac33c7394e5",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 4.87,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-31",
+        "end": "2026-10-31"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-df31c9486d2020a49c4030dc",
+      "parcel_id": "parcel-don-tino",
+      "variable": "precipitation",
+      "value": 1.38,
+      "unit": "mm",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-11-01",
+        "end": "2026-11-01"
+      },
+      "source": {
+        "id": "nasa-power-prectotcorr",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / PRECTOTCORR / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "sum",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-b685770787fd9016a6fb747c",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 23.21,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-26",
+        "end": "2026-10-26"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-c07cde238a6901d788cd87d5",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 24.22,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-27",
+        "end": "2026-10-27"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-6ced550dda86a4863f7436d7",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 23.45,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-28",
+        "end": "2026-10-28"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-ed8d23f07fd8102e87e0f256",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 23.39,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-29",
+        "end": "2026-10-29"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-1691d3adf3439a51fd6644bc",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 24.59,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-30",
+        "end": "2026-10-30"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-b287a9c18569cca13bd8727f",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 24.79,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-10-31",
+        "end": "2026-10-31"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    },
+    {
+      "id": "power-day-63b4d2bab04457aab9766852",
+      "parcel_id": "parcel-don-tino",
+      "variable": "air_temperature_mean",
+      "value": 25.43,
+      "unit": "degC",
+      "status": "available",
+      "missing_reason": null,
+      "period": {
+        "start": "2026-11-01",
+        "end": "2026-11-01"
+      },
+      "source": {
+        "id": "nasa-power-t2m",
+        "name": "NASA POWER",
+        "kind": "nasa",
+        "retrieved_at": "2026-11-14T15:47:45.176127Z",
+        "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=-89.841500&latitude=19.741800&community=AG&start=20261026&end=20261101&parameters=PRECTOTCORR%2CT2M&format=JSON&time-standard=LST",
+        "product": "Daily Point LST / T2M / GEOSIT",
+        "product_version": "v2.10.3",
+        "license_note": "Atribución a NASA POWER. https://power.larc.nasa.gov/docs/referencing/"
+      },
+      "data_kind": "observed",
+      "spatial_support": "regional",
+      "aggregation": "mean",
+      "confidence": {
+        "level": "low",
+        "reasons": [
+          "Los valores de NASA POWER describen condiciones regionales."
+        ],
+        "spatial_resolution_m": null,
+        "age_days": null,
+        "source_agreement": "not_checked"
+      }
+    }
+  ],
+  "warnings": [
+    "NASA POWER Daily Point se consultó en el centro de la caja del polígono.",
+    "La serie es regional y las fechas están en hora solar local (LST)."
+  ]
+}

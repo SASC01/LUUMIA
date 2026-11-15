@@ -1,0 +1,47 @@
+{
+  "source": "USDA FAS · Informes Grain and Feed de México",
+  "download_urls": [
+    "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Annual_Mexico+City_Mexico_MX2026-0018",
+    "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Update_Mexico+City_Mexico_MX2026-0045"
+  ],
+  "retrieved_at": "2026-11-14T18:21:16+00:00",
+  "raw_sha256": {
+    "usda-mx2026-0018.pdf": "7e788c0431b2f4eb19fe2ddc7912c72cce2b2095419f5469808071cfc52a3247",
+    "usda-mx2026-0045.pdf": "091c7698c486583055fc49f9241e42a9993ab5bacc0b19c038edb083cdfbb767"
+  },
+  "series": [
+    {
+      "series_id": "usda-fas-maiz-blanco-bajio-mx",
+      "crop_id": "maiz",
+      "product": "Maíz blanco",
+      "geography": "Bajío (Jalisco, Guanajuato y Michoacán), México",
+      "geography_code": "MEX",
+      "geography_level": "region",
+      "observation_kind": "point_in_month",
+      "currency": "MXN",
+      "unit": "t",
+      "source_name": "USDA FAS · Grain and Feed de México",
+      "source_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Update_Mexico+City_Mexico_MX2026-0045",
+      "download_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Update_Mexico+City_Mexico_MX2026-0045",
+      "retrieved_at": "2026-11-14T18:21:16+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "rows": [
+        {
+          "month": "2026-02-01",
+          "price": "4800",
+          "source_flag": "aproximado",
+          "source_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Annual_Mexico+City_Mexico_MX2026-0018",
+          "source_note": "Referencia al productor en febrero de 2026. Informe del 13 de marzo de 2026, página 4. El texto no indica un día ni define un promedio mensual."
+        },
+        {
+          "month": "2026-09-01",
+          "price": "4600",
+          "source_flag": "aproximado",
+          "source_url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Update_Mexico+City_Mexico_MX2026-0045",
+          "source_note": "Referencia al productor a principios de septiembre de 2026. Informe del 23 de septiembre de 2026, páginas 4 y 5."
+        }
+      ]
+    }
+  ]
+}

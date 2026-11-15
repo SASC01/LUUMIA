@@ -1,0 +1,155 @@
+{
+  "source": "DGSIAP · Balanzas Disponibilidad–Consumo",
+  "download_urls": [
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/noviembre2025.php",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/diciembre2025.php",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/octubre2025.php",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/noviembre2025.php",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/diciembre2025.php",
+    "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php"
+  ],
+  "retrieved_at": "2026-11-14T18:22:52+00:00",
+  "raw_sha256": {
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/noviembre2025.php": "37bee91e60f801ebb1e0ec3eec402ff0d2f15aac0256855ead3aefecbef4d0a5",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/diciembre2025.php": "648da373d76411e78e6c1fca97e4f0132bc78daee095a29eda8a2515f8b3c6dc",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/octubre2025.php": "aa7db7b10ae7a73c9a0d0c6c8e9389536b63be9b8a8add760bb01547ee0e7e15",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/noviembre2025.php": "d11f717f230158979a35acfaddcce15b6e0e15e007f332c2801f0d9f9039a518",
+    "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/diciembre2025.php": "4645644e1711a2c562634594fe8ed1867ded86b48f031e0fe97f889590767f14",
+    "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php": "bf6bc00c43de14fe6a0ea681809e930f4feb0638020b01c76d05b404fde7f8d3"
+  },
+  "series": [
+    {
+      "series_id": "dgsiap-balanza-maiz-blanco-mx",
+      "crop_id": "maiz",
+      "product": "Maíz grano blanco",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Balanzas Disponibilidad–Consumo",
+      "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/diciembre2025.php",
+      "retrieved_at": "2026-11-14T18:22:52+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2025-10-01",
+          "price": "5.51",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/noviembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        },
+        {
+          "month": "2025-11-01",
+          "price": "5.48",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoBlanco/diciembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-balanza-maiz-amarillo-mx",
+      "crop_id": "maiz",
+      "product": "Maíz grano amarillo",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Balanzas Disponibilidad–Consumo",
+      "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/diciembre2025.php",
+      "retrieved_at": "2026-11-14T18:22:52+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2025-08-01",
+          "price": "5.07",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/octubre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        },
+        {
+          "month": "2025-10-01",
+          "price": "4.96",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/noviembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        },
+        {
+          "month": "2025-11-01",
+          "price": "4.66",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/MaizGranoAmarillo/diciembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-balanza-frijol-negro-mx",
+      "crop_id": "frijol",
+      "product": "Frijol negro",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Balanzas Disponibilidad–Consumo",
+      "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+      "retrieved_at": "2026-11-14T18:22:52+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2025-11-01",
+          "price": "14.53",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-balanza-frijol-pinto-mx",
+      "crop_id": "frijol",
+      "product": "Frijol pinto",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Balanzas Disponibilidad–Consumo",
+      "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+      "retrieved_at": "2026-11-14T18:22:52+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2025-11-01",
+          "price": "16.25",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-balanza-frijol-peruano-mx",
+      "crop_id": "frijol",
+      "product": "Frijol peruano",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Balanzas Disponibilidad–Consumo",
+      "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+      "retrieved_at": "2026-11-14T18:22:52+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2025-11-01",
+          "price": "21.352",
+          "source_url": "https://nube.agricultura.gob.mx/Balanza/Frijol/diciembre2025.php",
+          "source_note": "Precio medio rural mensual nacional. Conversión exacta de MXN/t a MXN/kg."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3.75rem;
+  padding-block: .45rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.site-brand-art {
+  /* Reserve the visible part of the original PNG, which includes transparent margins. */
+  position: relative;
+  width: clamp(8.5rem, 14vw, 10rem);
+  aspect-ratio: 1488 / 490;
+  overflow: hidden;
+}
+
+.site-brand-art img {
+  position: absolute;
+  width: calc(100% * 1920 / 1488);
+  max-width: none;
+  height: auto;
+  left: calc(-100% * 215 / 1488);
+  top: calc(-100% * 155 / 490);
+}

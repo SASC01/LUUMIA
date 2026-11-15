@@ -1,0 +1,14 @@
+.parcel-create { max-inline-size: 43rem; }
+.own-parcel-bar { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: end; justify-content: space-between; }
+.own-parcel-bar:not(:empty) { margin-block-end: 1rem; }
+.own-parcel-bar label { display: grid; gap: .25rem; min-inline-size: min(100%, 12rem); font-weight: 600; }
+.own-parcel-bar select { min-block-size: 2.75rem; padding: .45rem; border: 1px solid #a8b9ad; border-radius: var(--control-radius); background: var(--surface); }
+
+.demo-menu { padding-block: .2rem; border-bottom: 1px solid var(--line); }
+.demo-menu nav { display: flex; flex-wrap: wrap; gap: .25rem .8rem; }
+.demo-menu nav > a { display: inline-flex; align-items: center; min-block-size: 2.75rem; }
+.demo-menu nav > a[aria-current="page"] { font-weight: 700; }
+@media (max-width: 24rem) {
+  .demo-menu nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 .45rem; }
+  .demo-menu nav > a { font-size: .94rem; }
+}

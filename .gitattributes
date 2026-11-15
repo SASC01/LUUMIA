@@ -1,0 +1,3 @@
+data/raw/sniim/*.html -text
+data/processed/sniim/quotes.csv text eol=lf
+contracts/generated/luumia.ts text eol=lf

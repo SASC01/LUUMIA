@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:odk="http://www.opendatakit.org/xforms">
+  <h:head>
+    <h:title>LuumIA | Lectura de pluviómetro</h:title>
+    <model odk:xforms-version="1.0.0">
+      <instance>
+        <data id="don-tino-rain" version="2026111401">
+          <parcel_id>parcel-don-tino</parcel_id>
+          <expected_context_version/>
+          <data_kind>synthetic</data_kind>
+          <rainfall_mm/>
+          <accumulation_start/>
+          <accumulation_end/>
+          <observed_at/>
+          <author_id>producer-don-tino</author_id>
+          <confirmed/>
+          <note/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <instance id="data_kind">
+        <root>
+          <item>
+            <name>synthetic</name>
+            <label>Lectura simulada de demostración</label>
+          </item>
+          <item>
+            <name>observed</name>
+            <label>Lectura de pluviómetro real</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <name>yes</name>
+            <label>Sí</label>
+          </item>
+          <item>
+            <name>no</name>
+            <label>No</label>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/data/parcel_id" type="string" required="true()" constraint="regex(., '^[a-z][a-z0-9_-]{1,79}$')" jr:constraintMsg="Usa el identificador de la ficha, sin espacios."/>
+      <bind nodeset="/data/expected_context_version" type="int" required="true()" constraint=". &gt;= 1" jr:constraintMsg="La versión debe ser un entero mayor o igual a 1."/>
+      <bind nodeset="/data/data_kind" type="string" required="true()"/>
+      <bind nodeset="/data/rainfall_mm" type="decimal" required="true()" constraint=". &gt;= 0" jr:constraintMsg="Ingresa un número mayor o igual a cero."/>
+      <bind nodeset="/data/accumulation_start" type="dateTime" required="true()"/>
+      <bind nodeset="/data/accumulation_end" type="dateTime" required="true()" constraint="decimal-date-time(.) &gt; decimal-date-time( /data/accumulation_start )" jr:constraintMsg="El fin debe ser posterior al inicio."/>
+      <bind nodeset="/data/observed_at" type="dateTime" required="true()" constraint="decimal-date-time(.) &gt;= decimal-date-time( /data/accumulation_end ) and decimal-date-time(.) &lt;= decimal-date-time(now())" jr:constraintMsg="La lectura debe ser al cierre de la acumulación o después, hasta la hora actual."/>
+      <bind nodeset="/data/author_id" type="string" required="true()" constraint="regex(., '^[a-z][a-z0-9_-]{1,79}$')" jr:constraintMsg="Ingresa entre 2 y 80 caracteres e inicia con una letra minúscula."/>
+      <bind nodeset="/data/confirmed" type="string" required="true()" constraint=". = 'yes'" jr:constraintMsg="Confirma la lectura real o vuelve a Origen de la lectura y selecciona simulada." relevant=" /data/data_kind  = 'observed'"/>
+      <bind nodeset="/data/note" type="string"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" jr:preload="uid"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/parcel_id">
+      <label>ID de parcela</label>
+      <hint>Identificador en la ficha de LuumIA.</hint>
+    </input>
+    <input ref="/data/expected_context_version">
+      <label>Versión de la ficha</label>
+      <hint>Ingresa el número de versión que muestra LuumIA antes de registrar la observación.</hint>
+    </input>
+    <select1 ref="/data/data_kind">
+      <label>Origen de la lectura</label>
+      <hint>En la demo de Don Tino, selecciona simulada.</hint>
+      <itemset nodeset="instance('data_kind')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <input ref="/data/rainfall_mm">
+      <label>Lluvia acumulada (mm)</label>
+      <hint>Ingresa 0 si el pluviómetro no registró lluvia.</hint>
+    </input>
+    <input ref="/data/accumulation_start">
+      <label>Inicio de la acumulación</label>
+      <hint>Usa la fecha y hora locales del inicio de la medición.</hint>
+    </input>
+    <input ref="/data/accumulation_end">
+      <label>Fin de la acumulación</label>
+      <hint>Usa la fecha y hora locales del cierre de la medición.</hint>
+    </input>
+    <input ref="/data/observed_at">
+      <label>Fecha y hora de la lectura</label>
+      <hint>Verifica que la zona horaria del dispositivo corresponda al lugar de la lectura.</hint>
+    </input>
+    <input ref="/data/author_id">
+      <label>ID de quien registra</label>
+      <hint>Usa letras minúsculas, números, guiones o guiones bajos. Ejemplo: productor-demo.</hint>
+    </input>
+    <select1 ref="/data/confirmed">
+      <label>¿Confirmas que se trata de una lectura de pluviómetro real?</label>
+      <hint>Verifica la medición, sus fechas y la parcela antes de confirmarla.</hint>
+      <itemset nodeset="instance('yes_no')/root/item">
+        <value ref="name"/>
+        <label ref="label"/>
+      </itemset>
+    </select1>
+    <input ref="/data/note">
+      <label>Notas</label>
+      <hint>Anota condiciones de la medición si aportan contexto.</hint>
+    </input>
+  </h:body>
+</h:html>

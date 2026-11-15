@@ -1,0 +1,118 @@
+.parcel-history {
+  min-width: 0;
+  padding: var(--panel-space);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.parcel-history h2 {
+  color: var(--green);
+}
+
+.parcel-history > section {
+  margin-block: 1.4rem;
+}
+
+.parcel-history > section:first-child {
+  margin-block-start: 0;
+}
+
+.parcel-history-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: .15rem .75rem;
+}
+
+.parcel-history-title h2 {
+  margin: 0;
+}
+
+.parcel-history-title a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+}
+
+.parcel-history ul.parcel-history-list {
+  padding: 0;
+  margin: .45rem 0 0;
+  list-style: none;
+}
+
+.parcel-history-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: .3rem 1rem;
+  padding-block: .6rem;
+  border-bottom: 1px solid var(--line);
+  font-variant-numeric: tabular-nums;
+}
+
+.parcel-history-list li:last-child {
+  border-bottom: 0;
+}
+
+.parcel-history-list span {
+  display: block;
+  color: var(--muted);
+}
+
+.parcel-history-value,
+.parcel-history-list li > a {
+  text-align: end;
+}
+
+.parcel-history-previous {
+  margin-top: .75rem;
+}
+
+.crop-change-history > ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.crop-change-history li {
+  padding-block: .6rem;
+  border-block-start: 1px solid var(--line);
+}
+
+.crop-change-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .2rem .75rem;
+}
+
+.crop-change-history dl {
+  display: grid;
+  gap: .45rem;
+  margin: .55rem 0 .25rem;
+}
+
+.crop-change-history dl > div {
+  display: grid;
+  grid-template-columns: minmax(0, 5rem) minmax(0, 1fr);
+  align-items: baseline;
+  gap: .2rem .75rem;
+}
+
+.crop-change-history dt { color: var(--muted); }
+.crop-change-history dd { margin: 0; font-variant-numeric: tabular-nums; }
+.crop-change-reason { margin-block: .35rem; }
+.crop-change-version { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+@media (max-width: 31rem) {
+  .parcel-history-list li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .parcel-history-value,
+  .parcel-history-list li > a {
+    text-align: start;
+  }
+}

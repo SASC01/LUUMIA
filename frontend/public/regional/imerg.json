@@ -1,0 +1,70 @@
+{
+  "id": "imerg",
+  "title": "Precipitación regional · IMERG",
+  "variable": "Tasa de precipitación",
+  "unit": "mm/h",
+  "resolution": "0,1° × 0,1°",
+  "temporal_label": "Visualización diaria UTC",
+  "date": "2026-11-01",
+  "retrieved_at": "2026-11-14T16:37:59+00:00",
+  "product": "NASA GPM IMERG V07 · NASA EOSDIS GIBS",
+  "source_url": "https://gpm.nasa.gov/data/imerg",
+  "metadata_url": "https://github.com/nasa-gibs/worldview/blob/main/config/default/common/config/metadata/layers/multi-mission/imerg/IMERG_Precipitation_Rate.md",
+  "request_url": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&CRS=EPSG%3A4326&BBOX=17.5%2C-92%2C22%2C-87.5&WIDTH=512&HEIGHT=512&LAYERS=IMERG_Precipitation_Rate&STYLES=&FORMAT=image%2Fpng&TRANSPARENT=TRUE&TIME=2026-11-01",
+  "image_url": "/regional/imerg.png",
+  "image_width": 512,
+  "image_height": 512,
+  "bounds": [
+    -92,
+    17.5,
+    -87.5,
+    22
+  ],
+  "legend_url": "https://gibs.earthdata.nasa.gov/legends/GPM_Precipitation_Rate_H.svg",
+  "legend": [
+    {
+      "label": "0,1 – 0,106",
+      "color": "#00764e"
+    },
+    {
+      "label": "0,473 – 0,501",
+      "color": "#45c000"
+    },
+    {
+      "label": "1 – 1,059",
+      "color": "#c3e400"
+    },
+    {
+      "label": "1,995 – 2,114",
+      "color": "#ffb006"
+    },
+    {
+      "label": "4,732 – 5,012",
+      "color": "#ff4730"
+    },
+    {
+      "label": "10 – 10,593",
+      "color": "#e70000"
+    },
+    {
+      "label": "≥ 53,088",
+      "color": "#330000"
+    }
+  ],
+  "legend_is_sampled": true,
+  "colormap_url": "https://gibs.earthdata.nasa.gov/colormaps/v1.3/GPM_Precipitation_Rate.xml",
+  "layer_id": "IMERG_Precipitation_Rate",
+  "data_kind": "provider_visualization",
+  "marker": {
+    "x_percent": 47.96666666666675,
+    "y_percent": 50.182222222222194
+  },
+  "notes": [
+    "Imagen diaria del proveedor a partir de estimaciones semihorarias. La escala expresa una tasa en mm/h.",
+    "Las áreas transparentes pueden indicar tasas menores a 0,1 mm/h o falta de datos.",
+    "Se muestran clases de color de la escala de lluvia. La leyenda oficial incluye todas las clases y la escala de nieve."
+  ],
+  "sha256": "34066abc35fcb87618be49db8545719f30ae5af6aa18251659fe916bbeb3529a",
+  "legend_image_url": "/regional/imerg-legend.png",
+  "legend_alt": "Escala oficial NASA GIBS para lluvia y nieve en milímetros por hora, de 0,1 a 53 o más."
+}

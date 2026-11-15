@@ -1,0 +1,9 @@
+.yield-reference { margin: .8rem 0; border-block-start: 1px solid var(--line); padding-block-start: .7rem; }
+.yield-reference > p + p { margin-block-start: .35rem; }
+.yield-statistics {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .5rem .7rem; margin: .7rem 0;
+}
+.yield-statistics dt { color: var(--muted); font-size: .9rem; }
+.yield-statistics dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+@media (max-width: 380px) { .yield-statistics { grid-template-columns: minmax(0, 1fr); } }

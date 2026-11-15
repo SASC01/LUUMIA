@@ -1,0 +1,64 @@
+{
+  "id": "smap",
+  "title": "SMAP · Humedad superficial",
+  "variable": "Humedad volumétrica del suelo (0–5 cm)",
+  "unit": "m³/m³",
+  "resolution": "9 km",
+  "temporal_label": "Análisis instantáneo a las 12:00 UTC (06:00 en Campeche)",
+  "date": "2026-11-01",
+  "retrieved_at": "2026-11-14T16:37:00+00:00",
+  "product": "SMAP L4 · SPL4SMAU V008",
+  "source_url": "https://nsidc.org/data/spl4smau/versions/8",
+  "request_url": "https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=SMAP_L4_Analyzed_Surface_Soil_Moisture&STYLES=&FORMAT=image%2Fpng&TRANSPARENT=TRUE&SRS=EPSG%3A4326&BBOX=-92,17.5,-87.5,22&WIDTH=512&HEIGHT=512&TIME=2026-11-01",
+  "image_url": "/regional/smap.png",
+  "image_width": 512,
+  "image_height": 512,
+  "bounds": [
+    -92,
+    17.5,
+    -87.5,
+    22
+  ],
+  "legend_url": "https://gibs.earthdata.nasa.gov/legends/SMAP_Analyzed_Soil_Moisture_H.svg",
+  "legend_image_url": "/regional/smap-legend.svg",
+  "legend_alt": "Escala continua NASA GIBS de humedad del suelo de 0,000 a 0,700 m³/m³ o más, de naranja a gris, con marcas en 0,175, 0,350 y 0,525.",
+  "legend": [
+    {
+      "label": "0,000",
+      "color": "#ffa200"
+    },
+    {
+      "label": "0,175",
+      "color": "#82c100"
+    },
+    {
+      "label": "0,350",
+      "color": "#00feff"
+    },
+    {
+      "label": "0,525",
+      "color": "#0000bb"
+    },
+    {
+      "label": "≥ 0,700",
+      "color": "#505050"
+    },
+    {
+      "label": "Sin datos"
+    }
+  ],
+  "notes": [
+    "Análisis de humedad en los 5 cm superficiales. El producto combina observaciones satelitales y un modelo de superficie.",
+    "Visualización regional de NASA GIBS. La escala de colores corresponde a la malla original de 9 km y no aporta una lectura puntual de la parcela.",
+    "Las zonas transparentes corresponden a ausencia de datos en la visualización."
+  ],
+  "grid_label": "EASE-Grid 2.0 · 9 km en el producto de origen",
+  "data_kind": "provider_visualization",
+  "layer_id": "SMAP_L4_Analyzed_Surface_Soil_Moisture",
+  "metadata_url": "https://gibs.earthdata.nasa.gov/layer-metadata/v1.0/SMAP_L4_Analyzed_Surface_Soil_Moisture.json",
+  "colormap_url": "https://gibs.earthdata.nasa.gov/colormaps/v1.3/SMAP_Analyzed_Soil_Moisture.xml",
+  "worldview_url": "https://worldview.earthdata.nasa.gov/?l=SMAP_L4_Analyzed_Surface_Soil_Moisture,Coastlines_15m&t=2026-11-01-T12%3A00%3A00Z&v=-92,17.5,-87.5,22",
+  "citation": "Reichle et al. (2025). SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update, v008. NASA NSIDC DAAC. DOI: 10.5067/02LGW4DGJYRX. Visualización NASA GIBS / ESDIS.",
+  "technical_source_url": "https://ntrs.nasa.gov/api/citations/20250006429/downloads/SMAP_L4_SM_PSD_v1-7_for_L4SM_Version_8.pdf",
+  "image_sha256": "e9cfbf7bd4d368737fe50a3eb64dc3bf3cf12bb5d77d8b22ab7be93ab83a914c"
+}

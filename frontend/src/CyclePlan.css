@@ -1,0 +1,59 @@
+.cycle-plan { grid-column: 1 / -1; }
+.cycle-picks {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1.05rem 0 0; border-block: 1px solid var(--line);
+}
+.cycle-pick { padding: .85rem 1rem; min-width: 0; }
+.cycle-pick + .cycle-pick { border-inline-start: 1px solid var(--line); }
+.cycle-pick:first-child { padding-inline-start: 0; }
+.cycle-pick dt { color: var(--muted); }
+.cycle-pick dd { margin: .16rem 0 0; font-size: 1.17rem; font-weight: 700; color: var(--green); }
+.cycle-recommendation { background: #edf4eb; }
+.cycle-controls { display: flex; align-items: end; flex-wrap: wrap; gap: .55rem 1rem; }
+.cycle-controls .form-grid { margin: 0; grid-template-columns: minmax(0, 1fr); }
+.cycle-sale-description { width: 100%; }
+.cycle-assumptions { width: 100%; margin: 0; }
+.cycle-assumption { border-top: 1px solid var(--line); padding-top: .55rem; }
+.cycle-assumption + .cycle-assumption { margin-top: .7rem; }
+.cycle-assumption .form-grid { margin-top: .55rem; grid-template-columns: repeat(auto-fit, minmax(min(9rem, 100%), 1fr)); }
+.cycle-checkbox { display: inline-flex; align-items: center; gap: .5rem; min-height: 2.75rem; cursor: pointer; }
+.cycle-checkbox input { width: 1.1rem; height: 1.1rem; margin: 0; accent-color: var(--green); }
+.cycle-rows {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  list-style: none; padding: 0; margin: 0; gap: .7rem;
+}
+.cycle-row { padding: .85rem; border: 1px solid var(--line); border-radius: var(--radius); min-width: 0; }
+.cycle-row-recommended { border-color: #84a58e; background: #f6faf4; }
+.cycle-row h4 { margin: 0 0 .25rem; }
+.cycle-row .facts { margin-block: .6rem; }
+.cycle-row details { margin-bottom: 0; }
+.cycle-margin { display: block; font-size: clamp(1.25rem, 2.4vw, 1.68rem); line-height: 1.22; }
+.cycle-method { margin-top: .65rem; }
+.cycle-subsection + .cycle-subsection { border-top: 1px solid var(--line); margin-top: 1.35rem; padding-top: .25rem; }
+.cycle-plan .cycle-source-select { max-width: 38rem; grid-template-columns: minmax(0, 1fr); }
+.cycle-source-links { display: flex; flex-wrap: wrap; column-gap: 1rem; margin-top: .35rem; }
+.cycle-source-links a, .cycle-series-link { display: inline-flex; align-items: center; min-height: 2.75rem; }
+#precios-productor { scroll-margin-top: 1rem; }
+.cycle-price-summary span { display: block; color: var(--muted); }
+.price-trend { margin-block: .8rem; }
+.price-trend canvas { display: block; height: clamp(12rem, 23vw, 17rem); width: 100%; }
+.price-trend-key { display: flex; flex-wrap: wrap; gap: .3rem .95rem; padding: 0; margin: .3rem 0 0; list-style: none; }
+.price-trend-key li { display: flex; align-items: center; gap: .3rem; }
+.price-trend-key li::before { content: ""; width: 1.1rem; border-top: .13rem solid #296148; }
+.price-trend-key li:nth-child(2)::before { border-top: .13rem dashed #8c591f; }
+.price-trend-key li:nth-child(3)::before { border-top: .48rem solid #f2dec3; }
+.cycle-prices { width: 100%; table-layout: fixed; border-collapse: collapse; font-variant-numeric: tabular-nums; margin-bottom: .6rem; }
+.cycle-prices td, .cycle-prices th { border-bottom: 1px solid var(--line); padding: .37rem .27rem; text-align: end; overflow-wrap: anywhere; }
+.cycle-prices th:first-child { text-align: start; }
+.cycle-prices thead th:first-child { width: 34%; }
+@media (max-width: 68rem) {
+  .cycle-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 44rem) {
+  .cycle-picks, .cycle-rows { grid-template-columns: minmax(0, 1fr); }
+  .cycle-pick, .cycle-pick:first-child { padding-inline: .65rem; }
+  .cycle-pick + .cycle-pick { border-inline-start: none; border-block-start: 1px solid var(--line); }
+}
+@media (max-width: 38rem) {
+  .cycle-controls .form-grid, .cycle-controls > .button { width: 100%; }
+}

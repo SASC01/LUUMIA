@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source": "SNIIM",
+  "files": {
+    "campeche-2021.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2021&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "resolved_url": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2021&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "retrieved_at": "2026-11-14T15:38:39+00:00",
+      "sha256": "4b43cc3f814fe7a6b0c19bfae754a5985bc4ecc275100a7d4819aca494b408da",
+      "bytes": 51096
+    },
+    "campeche-2022.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2022&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "resolved_url": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2022&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "retrieved_at": "2026-11-14T15:38:39+00:00",
+      "sha256": "9ed9b0c5a15fe1a9511a34e16a5495b3272b13a7d680cf9ac885d9abe3a28cbd",
+      "bytes": 51111
+    },
+    "campeche-2023.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2023&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "resolved_url": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2023&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "retrieved_at": "2026-11-14T15:38:39+00:00",
+      "sha256": "7902b3b8ca44a5ba05412285c3970617fa3dc6fe2519e40af1ab6783a67a11e6",
+      "bytes": 52178
+    },
+    "campeche-2024.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2024&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "resolved_url": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2024&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "retrieved_at": "2026-11-14T15:38:40+00:00",
+      "sha256": "fad3645e21cb0f21fcba8f8d3035c211ced22d00beb9e8449a18e8013214266e",
+      "bytes": 53153
+    },
+    "campeche-2025.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2025&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "resolved_url": "https://www.economia-sniim.gob.mx/CuadroAnualCons.asp?anio=2025&dest=T&ori=T&pres=T&prod=839&uni=1",
+      "retrieved_at": "2026-11-14T15:38:40+00:00",
+      "sha256": "0060f7cfb723d607fddea46a30a76d687097c36cd99c4d09d746c7174ecc3585",
+      "bytes": 52082
+    },
+    "merida-2026-09.html": {
+      "url_fuente": "https://www.economia-sniim.gob.mx/NUEVO/Consultas/MercadosNacionales/PreciosDeMercado/Agricolas/ResultadosConsultaFechaFrutasYHortalizas.aspx?Destino=Yucat%C3%A1n%3A+Central+de+Abasto+de+M%C3%A9rida&DestinoId=310&Origen=Todos&OrigenId=-1&PreciosPorId=2&ProductoId=839&RegistrosPorPagina=1000&fechaFinal=01%2F10%2F2026&fechaInicio=21%2F09%2F2026",
+      "resolved_url": "https://www.economia-sniim.gob.mx/NUEVO/Consultas/MercadosNacionales/PreciosDeMercado/Agricolas/ResultadosConsultaFechaFrutasYHortalizas.aspx?Destino=Yucat%C3%A1n%3A+Central+de+Abasto+de+M%C3%A9rida&DestinoId=310&Origen=Todos&OrigenId=-1&PreciosPorId=2&ProductoId=839&RegistrosPorPagina=1000&fechaFinal=01%2F10%2F2026&fechaInicio=21%2F09%2F2026",
+      "retrieved_at": "2026-11-14T15:38:40+00:00",
+      "sha256": "94aa0d14d93f01d5068d31e37df4c7f5857459e0dd45ea08fefd29e3a03040ac",
+      "bytes": 19526
+    }
+  }
+}

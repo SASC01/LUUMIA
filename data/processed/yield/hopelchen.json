@@ -1,0 +1,128 @@
+{
+  "catalog_version": "dgsiap-2021-2025-v1",
+  "publisher": "DGSIAP",
+  "source_url": "https://nube.agricultura.gob.mx/datosAbiertos/Agricola.php",
+  "municipality": "Hopelchén",
+  "state": "Campeche",
+  "state_code": "04",
+  "municipality_code": "006",
+  "year_start": 2021,
+  "year_end": 2025,
+  "records": [
+    {
+      "year": 2021,
+      "crop_id": "maiz",
+      "crop_label": "Maíz grano",
+      "crop_code": "7490000",
+      "cycle": "spring_summer",
+      "modality": "rainfed",
+      "harvested_area_ha": "34180",
+      "production_t": "122547",
+      "yield_t_ha": "3.585342",
+      "source_url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2021",
+      "source_sha256": "1f03b2f405c18ea00b63766f9732c7ed2f944b589e815ba6492c723e9b2cb65b",
+      "retrieved_at": "2026-11-14T17:18:22+00:00",
+      "source_rows": 2,
+      "source_cader_codes": [
+        "2",
+        "3"
+      ],
+      "source_csv_lines": [
+        679,
+        689
+      ]
+    },
+    {
+      "year": 2022,
+      "crop_id": "maiz",
+      "crop_label": "Maíz grano",
+      "crop_code": "7490000",
+      "cycle": "spring_summer",
+      "modality": "rainfed",
+      "harvested_area_ha": "32645",
+      "production_t": "65488.62",
+      "yield_t_ha": "2.006084",
+      "source_url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2022",
+      "source_sha256": "745f5189592446aa4348ffeba2780fd858f7071aef8dfd338414abbf2bc46162",
+      "retrieved_at": "2026-11-14T17:18:22+00:00",
+      "source_rows": 2,
+      "source_cader_codes": [
+        "2",
+        "3"
+      ],
+      "source_csv_lines": [
+        1162,
+        1174
+      ]
+    },
+    {
+      "year": 2023,
+      "crop_id": "maiz",
+      "crop_label": "Maíz grano",
+      "crop_code": "7490000",
+      "cycle": "spring_summer",
+      "modality": "rainfed",
+      "harvested_area_ha": "50335.00",
+      "production_t": "169495.40",
+      "yield_t_ha": "3.367347",
+      "source_url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2023",
+      "source_sha256": "30b3e90714d646821a6320645681b18e8e8fdbba8b88f59d4b5904b23acf4bf6",
+      "retrieved_at": "2026-11-14T17:18:22+00:00",
+      "source_rows": 2,
+      "source_cader_codes": [
+        "2",
+        "3"
+      ],
+      "source_csv_lines": [
+        1212,
+        1226
+      ]
+    },
+    {
+      "year": 2024,
+      "crop_id": "maiz",
+      "crop_label": "Maíz grano",
+      "crop_code": "7490000",
+      "cycle": "spring_summer",
+      "modality": "rainfed",
+      "harvested_area_ha": "42523",
+      "production_t": "174885.2",
+      "yield_t_ha": "4.112720",
+      "source_url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2024",
+      "source_sha256": "cffa7d638d74b4fc18966154c411ff207530d8be962abc9e311d2b08f3ffbb11",
+      "retrieved_at": "2026-11-14T17:18:23+00:00",
+      "source_rows": 2,
+      "source_cader_codes": [
+        "2",
+        "3"
+      ],
+      "source_csv_lines": [
+        1020,
+        1034
+      ]
+    },
+    {
+      "year": 2025,
+      "crop_id": "maiz",
+      "crop_label": "Maíz grano",
+      "crop_code": "7490000",
+      "cycle": "spring_summer",
+      "modality": "rainfed",
+      "harvested_area_ha": "43492",
+      "production_t": "196886.14",
+      "yield_t_ha": "4.526951",
+      "source_url": "https://nube.agricultura.gob.mx/index.php?view=10AE434F-A2158368-A120BC5A-EDF4AFAA&ANIO=2025",
+      "source_sha256": "1f72e2b0cde3aeb1cac40c205054ce662d65c5f4655831b997bf66c626650243",
+      "retrieved_at": "2026-11-14T17:18:24+00:00",
+      "source_rows": 2,
+      "source_cader_codes": [
+        "2",
+        "3"
+      ],
+      "source_csv_lines": [
+        990,
+        1004
+      ]
+    }
+  ]
+}

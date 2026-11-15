@@ -1,0 +1,96 @@
+.coop-panel {
+  font-variant-numeric: tabular-nums;
+}
+
+.coop-weeks,
+.coop-ranges {
+  display: grid;
+  gap: .8rem;
+  margin: .75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.coop-week-heading,
+.coop-margin-labels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .15rem .65rem;
+}
+
+.coop-week-heading b,
+.coop-margin-labels > :first-child {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.coop-volume-track,
+.coop-margin-track {
+  position: relative;
+  height: .65rem;
+  margin: .3rem 0;
+  border-radius: .2rem;
+  background: #e9efe8;
+}
+
+.coop-volume-track > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--leaf);
+}
+
+.coop-lots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .08rem .7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.coop-margin {
+  margin-top: 1rem;
+  padding-top: .9rem;
+  border-top: 1px solid var(--line);
+}
+
+.coop-margin h3 {
+  margin-top: 0;
+}
+
+.coop-margin-track {
+  height: .9rem;
+}
+
+.coop-zero,
+.coop-margin-band {
+  position: absolute;
+}
+
+.coop-zero {
+  z-index: 1;
+  inset-block: -.15rem;
+  border-left: 2px dashed #25362c;
+}
+
+.coop-margin-band {
+  inset-block: .1rem;
+  border-radius: .15rem;
+  min-width: 2px;
+}
+
+.coop-margin-spot {
+  background: #9a631e;
+}
+
+.coop-margin-group {
+  background: var(--leaf);
+}
+
+.coop-ranges + p {
+  margin-top: .7rem;
+}

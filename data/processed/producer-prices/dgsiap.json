@@ -1,0 +1,3999 @@
+{
+  "source": "DGSIAP · Cosechando Números del Campo",
+  "download_urls": [
+    "https://numerosdelcampo.agricultura.gob.mx/publicnew/temp/downloadCSV.php"
+  ],
+  "retrieved_at": "2026-11-14T18:10:35+00:00",
+  "raw_sha256": {
+    "cosechando-frijol.csv": "245ee021441fcd908f5fd3e232f6e2cdb910d4196a146393fd39bf0c70d7b6eb",
+    "cosechando-maiz-blanco.csv": "17f7bf0767057c66d0aa340d532cd8ea9f6a463f753c12341d9ddf4dda97f7b3",
+    "cosechando-maiz-amarillo.csv": "b194ee7f827080dab3e18259d3c7fc6a760eba7146ca3dcff8e4a6b5766de53c"
+  },
+  "series": [
+    {
+      "series_id": "dgsiap-frijol-negro-mx",
+      "crop_id": "frijol",
+      "product": "Frijol negro",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Cosechando Números del Campo",
+      "source_url": "https://numerosdelcampo.agricultura.gob.mx/publicnew/productosAgricolas/cargarPagina/3",
+      "retrieved_at": "2026-11-14T18:10:35+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2012-01-01",
+          "price": "12.46",
+          "source_flag": null
+        },
+        {
+          "month": "2012-02-01",
+          "price": "13.14",
+          "source_flag": null
+        },
+        {
+          "month": "2012-03-01",
+          "price": "11.74",
+          "source_flag": null
+        },
+        {
+          "month": "2012-04-01",
+          "price": "13.59",
+          "source_flag": null
+        },
+        {
+          "month": "2012-05-01",
+          "price": "14.5",
+          "source_flag": null
+        },
+        {
+          "month": "2012-06-01",
+          "price": "15.17",
+          "source_flag": null
+        },
+        {
+          "month": "2012-07-01",
+          "price": "16.03",
+          "source_flag": null
+        },
+        {
+          "month": "2012-08-01",
+          "price": "15.17",
+          "source_flag": null
+        },
+        {
+          "month": "2012-09-01",
+          "price": "13.35",
+          "source_flag": null
+        },
+        {
+          "month": "2012-10-01",
+          "price": "12.47",
+          "source_flag": null
+        },
+        {
+          "month": "2012-11-01",
+          "price": "10.08",
+          "source_flag": null
+        },
+        {
+          "month": "2012-12-01",
+          "price": "12.8",
+          "source_flag": null
+        },
+        {
+          "month": "2013-01-01",
+          "price": "12.12",
+          "source_flag": null
+        },
+        {
+          "month": "2013-02-01",
+          "price": "11.82",
+          "source_flag": null
+        },
+        {
+          "month": "2013-03-01",
+          "price": "11.17",
+          "source_flag": null
+        },
+        {
+          "month": "2013-04-01",
+          "price": "11.23",
+          "source_flag": null
+        },
+        {
+          "month": "2013-05-01",
+          "price": "11.97",
+          "source_flag": null
+        },
+        {
+          "month": "2013-06-01",
+          "price": "11.61",
+          "source_flag": null
+        },
+        {
+          "month": "2013-07-01",
+          "price": "11.39",
+          "source_flag": null
+        },
+        {
+          "month": "2013-08-01",
+          "price": "10.93",
+          "source_flag": null
+        },
+        {
+          "month": "2013-09-01",
+          "price": "12.51",
+          "source_flag": null
+        },
+        {
+          "month": "2013-10-01",
+          "price": "11.95",
+          "source_flag": null
+        },
+        {
+          "month": "2013-11-01",
+          "price": "9.52",
+          "source_flag": null
+        },
+        {
+          "month": "2013-12-01",
+          "price": "6.05",
+          "source_flag": null
+        },
+        {
+          "month": "2014-01-01",
+          "price": "9.23",
+          "source_flag": null
+        },
+        {
+          "month": "2014-02-01",
+          "price": "9.54",
+          "source_flag": null
+        },
+        {
+          "month": "2014-03-01",
+          "price": "8.37",
+          "source_flag": null
+        },
+        {
+          "month": "2014-04-01",
+          "price": "9.06",
+          "source_flag": null
+        },
+        {
+          "month": "2014-05-01",
+          "price": "9.41",
+          "source_flag": null
+        },
+        {
+          "month": "2014-06-01",
+          "price": "9.53",
+          "source_flag": null
+        },
+        {
+          "month": "2014-07-01",
+          "price": "9.54",
+          "source_flag": null
+        },
+        {
+          "month": "2014-08-01",
+          "price": "9.4",
+          "source_flag": null
+        },
+        {
+          "month": "2014-09-01",
+          "price": "9.5",
+          "source_flag": null
+        },
+        {
+          "month": "2014-10-01",
+          "price": "9.45",
+          "source_flag": null
+        },
+        {
+          "month": "2014-11-01",
+          "price": "8.04",
+          "source_flag": null
+        },
+        {
+          "month": "2014-12-01",
+          "price": "8.8",
+          "source_flag": null
+        },
+        {
+          "month": "2015-01-01",
+          "price": "10.19",
+          "source_flag": null
+        },
+        {
+          "month": "2015-02-01",
+          "price": "11.88",
+          "source_flag": null
+        },
+        {
+          "month": "2015-03-01",
+          "price": "13.12",
+          "source_flag": null
+        },
+        {
+          "month": "2015-04-01",
+          "price": "11.65",
+          "source_flag": null
+        },
+        {
+          "month": "2015-05-01",
+          "price": "11.83",
+          "source_flag": null
+        },
+        {
+          "month": "2015-06-01",
+          "price": "13.8",
+          "source_flag": null
+        },
+        {
+          "month": "2015-07-01",
+          "price": "9.77",
+          "source_flag": null
+        },
+        {
+          "month": "2015-08-01",
+          "price": "12.87",
+          "source_flag": null
+        },
+        {
+          "month": "2015-09-01",
+          "price": "12.08",
+          "source_flag": null
+        },
+        {
+          "month": "2015-10-01",
+          "price": "11.85",
+          "source_flag": null
+        },
+        {
+          "month": "2015-11-01",
+          "price": "9.04",
+          "source_flag": null
+        },
+        {
+          "month": "2015-12-01",
+          "price": "9.55",
+          "source_flag": null
+        },
+        {
+          "month": "2016-01-01",
+          "price": "10.77",
+          "source_flag": null
+        },
+        {
+          "month": "2016-02-01",
+          "price": "10.66",
+          "source_flag": null
+        },
+        {
+          "month": "2016-03-01",
+          "price": "11.64",
+          "source_flag": null
+        },
+        {
+          "month": "2016-04-01",
+          "price": "11.71",
+          "source_flag": null
+        },
+        {
+          "month": "2016-05-01",
+          "price": "11.74",
+          "source_flag": null
+        },
+        {
+          "month": "2016-06-01",
+          "price": "12.76",
+          "source_flag": null
+        },
+        {
+          "month": "2016-07-01",
+          "price": "10.13",
+          "source_flag": null
+        },
+        {
+          "month": "2016-08-01",
+          "price": "12.05",
+          "source_flag": null
+        },
+        {
+          "month": "2016-09-01",
+          "price": "11.74",
+          "source_flag": null
+        },
+        {
+          "month": "2016-10-01",
+          "price": "11.42",
+          "source_flag": null
+        },
+        {
+          "month": "2016-11-01",
+          "price": "11.18",
+          "source_flag": null
+        },
+        {
+          "month": "2016-12-01",
+          "price": "11.16",
+          "source_flag": null
+        },
+        {
+          "month": "2017-01-01",
+          "price": "12.55",
+          "source_flag": null
+        },
+        {
+          "month": "2017-02-01",
+          "price": "13.44",
+          "source_flag": null
+        },
+        {
+          "month": "2017-03-01",
+          "price": "11.22",
+          "source_flag": null
+        },
+        {
+          "month": "2017-04-01",
+          "price": "13.38",
+          "source_flag": null
+        },
+        {
+          "month": "2017-05-01",
+          "price": "13.09",
+          "source_flag": null
+        },
+        {
+          "month": "2017-06-01",
+          "price": "14.2",
+          "source_flag": null
+        },
+        {
+          "month": "2017-07-01",
+          "price": "11.78",
+          "source_flag": null
+        },
+        {
+          "month": "2017-08-01",
+          "price": "16.51",
+          "source_flag": null
+        },
+        {
+          "month": "2017-09-01",
+          "price": "13.74",
+          "source_flag": null
+        },
+        {
+          "month": "2017-10-01",
+          "price": "12.92",
+          "source_flag": null
+        },
+        {
+          "month": "2017-11-01",
+          "price": "12.59",
+          "source_flag": null
+        },
+        {
+          "month": "2017-12-01",
+          "price": "12.59",
+          "source_flag": null
+        },
+        {
+          "month": "2018-01-01",
+          "price": "13.57",
+          "source_flag": null
+        },
+        {
+          "month": "2018-02-01",
+          "price": "13.96",
+          "source_flag": null
+        },
+        {
+          "month": "2018-03-01",
+          "price": "13.67",
+          "source_flag": null
+        },
+        {
+          "month": "2018-04-01",
+          "price": "13.29",
+          "source_flag": null
+        },
+        {
+          "month": "2018-05-01",
+          "price": "13.53",
+          "source_flag": null
+        },
+        {
+          "month": "2018-06-01",
+          "price": "14.17",
+          "source_flag": null
+        },
+        {
+          "month": "2018-07-01",
+          "price": "13.55",
+          "source_flag": null
+        },
+        {
+          "month": "2018-08-01",
+          "price": "15.74",
+          "source_flag": null
+        },
+        {
+          "month": "2018-09-01",
+          "price": "13.19",
+          "source_flag": null
+        },
+        {
+          "month": "2018-10-01",
+          "price": "12.75",
+          "source_flag": null
+        },
+        {
+          "month": "2018-11-01",
+          "price": "9.81",
+          "source_flag": null
+        },
+        {
+          "month": "2018-12-01",
+          "price": "9.74",
+          "source_flag": null
+        },
+        {
+          "month": "2019-01-01",
+          "price": "10.25",
+          "source_flag": null
+        },
+        {
+          "month": "2019-02-01",
+          "price": "13.08",
+          "source_flag": null
+        },
+        {
+          "month": "2019-03-01",
+          "price": "13.42",
+          "source_flag": null
+        },
+        {
+          "month": "2019-04-01",
+          "price": "13.39",
+          "source_flag": null
+        },
+        {
+          "month": "2019-05-01",
+          "price": "14.14",
+          "source_flag": null
+        },
+        {
+          "month": "2019-06-01",
+          "price": "12.38",
+          "source_flag": null
+        },
+        {
+          "month": "2019-07-01",
+          "price": "14.93",
+          "source_flag": null
+        },
+        {
+          "month": "2019-08-01",
+          "price": "14.02",
+          "source_flag": null
+        },
+        {
+          "month": "2019-09-01",
+          "price": "13.41",
+          "source_flag": null
+        },
+        {
+          "month": "2019-10-01",
+          "price": "13.41",
+          "source_flag": null
+        },
+        {
+          "month": "2019-11-01",
+          "price": "13.58",
+          "source_flag": null
+        },
+        {
+          "month": "2019-12-01",
+          "price": "13.58",
+          "source_flag": null
+        },
+        {
+          "month": "2020-01-01",
+          "price": "12.77",
+          "source_flag": null
+        },
+        {
+          "month": "2020-02-01",
+          "price": "13.78",
+          "source_flag": null
+        },
+        {
+          "month": "2020-03-01",
+          "price": "13.84",
+          "source_flag": null
+        },
+        {
+          "month": "2020-04-01",
+          "price": "13.38",
+          "source_flag": null
+        },
+        {
+          "month": "2020-05-01",
+          "price": "15.43",
+          "source_flag": null
+        },
+        {
+          "month": "2020-06-01",
+          "price": "14.49",
+          "source_flag": null
+        },
+        {
+          "month": "2020-07-01",
+          "price": "15.31",
+          "source_flag": null
+        },
+        {
+          "month": "2020-08-01",
+          "price": "15.14",
+          "source_flag": null
+        },
+        {
+          "month": "2020-09-01",
+          "price": "13.83",
+          "source_flag": null
+        },
+        {
+          "month": "2020-10-01",
+          "price": "13.69",
+          "source_flag": null
+        },
+        {
+          "month": "2020-11-01",
+          "price": "14.17",
+          "source_flag": null
+        },
+        {
+          "month": "2020-12-01",
+          "price": "14.52",
+          "source_flag": null
+        },
+        {
+          "month": "2021-01-01",
+          "price": "14.52",
+          "source_flag": null
+        },
+        {
+          "month": "2021-02-01",
+          "price": "13.24",
+          "source_flag": null
+        },
+        {
+          "month": "2021-03-01",
+          "price": "14.11",
+          "source_flag": null
+        },
+        {
+          "month": "2021-04-01",
+          "price": "14.45",
+          "source_flag": null
+        },
+        {
+          "month": "2021-05-01",
+          "price": "14.21",
+          "source_flag": null
+        },
+        {
+          "month": "2021-06-01",
+          "price": "15.09",
+          "source_flag": null
+        },
+        {
+          "month": "2021-07-01",
+          "price": "15.69",
+          "source_flag": null
+        },
+        {
+          "month": "2021-08-01",
+          "price": "14.36",
+          "source_flag": null
+        },
+        {
+          "month": "2021-09-01",
+          "price": "14.71",
+          "source_flag": null
+        },
+        {
+          "month": "2021-10-01",
+          "price": "13.44",
+          "source_flag": null
+        },
+        {
+          "month": "2021-11-01",
+          "price": "13.42",
+          "source_flag": null
+        },
+        {
+          "month": "2021-12-01",
+          "price": "13.91",
+          "source_flag": null
+        },
+        {
+          "month": "2022-01-01",
+          "price": "14.1",
+          "source_flag": null
+        },
+        {
+          "month": "2022-02-01",
+          "price": "17.42",
+          "source_flag": null
+        },
+        {
+          "month": "2022-03-01",
+          "price": "14.34",
+          "source_flag": null
+        },
+        {
+          "month": "2022-04-01",
+          "price": "14.65",
+          "source_flag": null
+        },
+        {
+          "month": "2022-05-01",
+          "price": "17.23",
+          "source_flag": null
+        },
+        {
+          "month": "2022-06-01",
+          "price": "14.39",
+          "source_flag": null
+        },
+        {
+          "month": "2022-07-01",
+          "price": "13.96",
+          "source_flag": null
+        },
+        {
+          "month": "2022-08-01",
+          "price": "14.24",
+          "source_flag": null
+        },
+        {
+          "month": "2022-09-01",
+          "price": "16.02",
+          "source_flag": null
+        },
+        {
+          "month": "2022-10-01",
+          "price": "15.56",
+          "source_flag": null
+        },
+        {
+          "month": "2022-11-01",
+          "price": "17.17",
+          "source_flag": null
+        },
+        {
+          "month": "2022-12-01",
+          "price": "17.52",
+          "source_flag": null
+        },
+        {
+          "month": "2023-01-01",
+          "price": "17.79",
+          "source_flag": null
+        },
+        {
+          "month": "2023-02-01",
+          "price": "14.87",
+          "source_flag": null
+        },
+        {
+          "month": "2023-03-01",
+          "price": "18.98",
+          "source_flag": null
+        },
+        {
+          "month": "2023-04-01",
+          "price": "15.4",
+          "source_flag": null
+        },
+        {
+          "month": "2023-05-01",
+          "price": "15.81",
+          "source_flag": null
+        },
+        {
+          "month": "2023-06-01",
+          "price": "14.19",
+          "source_flag": null
+        },
+        {
+          "month": "2023-07-01",
+          "price": "17.02",
+          "source_flag": null
+        },
+        {
+          "month": "2023-08-01",
+          "price": "15.51",
+          "source_flag": null
+        },
+        {
+          "month": "2023-09-01",
+          "price": "15.12",
+          "source_flag": null
+        },
+        {
+          "month": "2023-10-01",
+          "price": "14.94",
+          "source_flag": null
+        },
+        {
+          "month": "2023-11-01",
+          "price": "17.09",
+          "source_flag": null
+        },
+        {
+          "month": "2023-12-01",
+          "price": "16.55",
+          "source_flag": null
+        },
+        {
+          "month": "2024-01-01",
+          "price": "15.14",
+          "source_flag": null
+        },
+        {
+          "month": "2024-02-01",
+          "price": "18.57",
+          "source_flag": null
+        },
+        {
+          "month": "2024-03-01",
+          "price": "17.39",
+          "source_flag": null
+        },
+        {
+          "month": "2024-04-01",
+          "price": "16.22",
+          "source_flag": null
+        },
+        {
+          "month": "2024-05-01",
+          "price": "16.9",
+          "source_flag": null
+        },
+        {
+          "month": "2024-06-01",
+          "price": "19.64",
+          "source_flag": null
+        },
+        {
+          "month": "2024-07-01",
+          "price": "17.15",
+          "source_flag": null
+        },
+        {
+          "month": "2024-08-01",
+          "price": "14.74",
+          "source_flag": null
+        },
+        {
+          "month": "2024-09-01",
+          "price": "15.36",
+          "source_flag": null
+        },
+        {
+          "month": "2024-10-01",
+          "price": "15.64",
+          "source_flag": null
+        },
+        {
+          "month": "2024-11-01",
+          "price": "19.41",
+          "source_flag": null
+        },
+        {
+          "month": "2024-12-01",
+          "price": "18.45",
+          "source_flag": null
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-frijol-peruano-mx",
+      "crop_id": "frijol",
+      "product": "Frijol peruano",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Cosechando Números del Campo",
+      "source_url": "https://numerosdelcampo.agricultura.gob.mx/publicnew/productosAgricolas/cargarPagina/3",
+      "retrieved_at": "2026-11-14T18:10:35+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2012-01-01",
+          "price": "12.6",
+          "source_flag": null
+        },
+        {
+          "month": "2012-02-01",
+          "price": "17.84",
+          "source_flag": null
+        },
+        {
+          "month": "2012-03-01",
+          "price": "18.8",
+          "source_flag": null
+        },
+        {
+          "month": "2012-04-01",
+          "price": "19.5",
+          "source_flag": null
+        },
+        {
+          "month": "2012-05-01",
+          "price": "15.32",
+          "source_flag": null
+        },
+        {
+          "month": "2012-06-01",
+          "price": "13.83",
+          "source_flag": null
+        },
+        {
+          "month": "2012-07-01",
+          "price": "18.49",
+          "source_flag": null
+        },
+        {
+          "month": "2012-08-01",
+          "price": "19.59",
+          "source_flag": null
+        },
+        {
+          "month": "2012-09-01",
+          "price": "19.59",
+          "source_flag": null
+        },
+        {
+          "month": "2012-10-01",
+          "price": "18.8",
+          "source_flag": null
+        },
+        {
+          "month": "2012-11-01",
+          "price": "17.08",
+          "source_flag": null
+        },
+        {
+          "month": "2012-12-01",
+          "price": "24.18",
+          "source_flag": null
+        },
+        {
+          "month": "2013-01-01",
+          "price": "18.48",
+          "source_flag": null
+        },
+        {
+          "month": "2013-02-01",
+          "price": "20.85",
+          "source_flag": null
+        },
+        {
+          "month": "2013-03-01",
+          "price": "20.67",
+          "source_flag": null
+        },
+        {
+          "month": "2013-04-01",
+          "price": "16.36",
+          "source_flag": null
+        },
+        {
+          "month": "2013-05-01",
+          "price": "19.56",
+          "source_flag": null
+        },
+        {
+          "month": "2013-06-01",
+          "price": "16.61",
+          "source_flag": null
+        },
+        {
+          "month": "2013-07-01",
+          "price": "13.95",
+          "source_flag": null
+        },
+        {
+          "month": "2013-08-01",
+          "price": "11.8",
+          "source_flag": null
+        },
+        {
+          "month": "2013-09-01",
+          "price": "11.86",
+          "source_flag": null
+        },
+        {
+          "month": "2013-10-01",
+          "price": "14.07",
+          "source_flag": null
+        },
+        {
+          "month": "2013-11-01",
+          "price": "13.01",
+          "source_flag": null
+        },
+        {
+          "month": "2013-12-01",
+          "price": "12.18",
+          "source_flag": null
+        },
+        {
+          "month": "2014-01-01",
+          "price": "13.22",
+          "source_flag": null
+        },
+        {
+          "month": "2014-02-01",
+          "price": "12.34",
+          "source_flag": null
+        },
+        {
+          "month": "2014-03-01",
+          "price": "10.02",
+          "source_flag": null
+        },
+        {
+          "month": "2014-04-01",
+          "price": "10.78",
+          "source_flag": null
+        },
+        {
+          "month": "2014-05-01",
+          "price": "10.99",
+          "source_flag": null
+        },
+        {
+          "month": "2014-06-01",
+          "price": "10.47",
+          "source_flag": null
+        },
+        {
+          "month": "2014-07-01",
+          "price": "11",
+          "source_flag": null
+        },
+        {
+          "month": "2014-08-01",
+          "price": "9.85",
+          "source_flag": null
+        },
+        {
+          "month": "2014-09-01",
+          "price": "10.16",
+          "source_flag": null
+        },
+        {
+          "month": "2014-10-01",
+          "price": "10.58",
+          "source_flag": null
+        },
+        {
+          "month": "2014-11-01",
+          "price": "9.64",
+          "source_flag": null
+        },
+        {
+          "month": "2014-12-01",
+          "price": "9.1",
+          "source_flag": null
+        },
+        {
+          "month": "2015-01-01",
+          "price": "11.83",
+          "source_flag": null
+        },
+        {
+          "month": "2015-02-01",
+          "price": "14.73",
+          "source_flag": null
+        },
+        {
+          "month": "2015-03-01",
+          "price": "13.7",
+          "source_flag": null
+        },
+        {
+          "month": "2015-04-01",
+          "price": "12.71",
+          "source_flag": null
+        },
+        {
+          "month": "2015-05-01",
+          "price": "11.79",
+          "source_flag": null
+        },
+        {
+          "month": "2015-06-01",
+          "price": "11.23",
+          "source_flag": null
+        },
+        {
+          "month": "2015-07-01",
+          "price": "10.31",
+          "source_flag": null
+        },
+        {
+          "month": "2015-08-01",
+          "price": "9.88",
+          "source_flag": null
+        },
+        {
+          "month": "2015-09-01",
+          "price": "8.79",
+          "source_flag": null
+        },
+        {
+          "month": "2015-10-01",
+          "price": "10.09",
+          "source_flag": null
+        },
+        {
+          "month": "2015-11-01",
+          "price": "11.28",
+          "source_flag": null
+        },
+        {
+          "month": "2015-12-01",
+          "price": "12.68",
+          "source_flag": null
+        },
+        {
+          "month": "2016-01-01",
+          "price": "11.1",
+          "source_flag": null
+        },
+        {
+          "month": "2016-02-01",
+          "price": "10",
+          "source_flag": null
+        },
+        {
+          "month": "2016-03-01",
+          "price": "17.71",
+          "source_flag": null
+        },
+        {
+          "month": "2016-04-01",
+          "price": "18.33",
+          "source_flag": null
+        },
+        {
+          "month": "2016-05-01",
+          "price": "12.84",
+          "source_flag": null
+        },
+        {
+          "month": "2016-06-01",
+          "price": "13.29",
+          "source_flag": null
+        },
+        {
+          "month": "2016-07-01",
+          "price": "14.55",
+          "source_flag": null
+        },
+        {
+          "month": "2016-08-01",
+          "price": "13.78",
+          "source_flag": null
+        },
+        {
+          "month": "2016-09-01",
+          "price": "14.08",
+          "source_flag": null
+        },
+        {
+          "month": "2016-10-01",
+          "price": "13.79",
+          "source_flag": null
+        },
+        {
+          "month": "2016-11-01",
+          "price": "13.42",
+          "source_flag": null
+        },
+        {
+          "month": "2016-12-01",
+          "price": "12.41",
+          "source_flag": null
+        },
+        {
+          "month": "2017-01-01",
+          "price": "13.26",
+          "source_flag": null
+        },
+        {
+          "month": "2017-02-01",
+          "price": "18.6",
+          "source_flag": null
+        },
+        {
+          "month": "2017-03-01",
+          "price": "17.66",
+          "source_flag": null
+        },
+        {
+          "month": "2017-04-01",
+          "price": "22.16",
+          "source_flag": null
+        },
+        {
+          "month": "2017-05-01",
+          "price": "20.29",
+          "source_flag": null
+        },
+        {
+          "month": "2017-06-01",
+          "price": "22.23",
+          "source_flag": null
+        },
+        {
+          "month": "2017-07-01",
+          "price": "23.2",
+          "source_flag": null
+        },
+        {
+          "month": "2017-08-01",
+          "price": "16.47",
+          "source_flag": null
+        },
+        {
+          "month": "2017-09-01",
+          "price": "12.75",
+          "source_flag": null
+        },
+        {
+          "month": "2017-10-01",
+          "price": "17.75",
+          "source_flag": null
+        },
+        {
+          "month": "2017-11-01",
+          "price": "14.8",
+          "source_flag": null
+        },
+        {
+          "month": "2017-12-01",
+          "price": "14.58",
+          "source_flag": null
+        },
+        {
+          "month": "2018-01-01",
+          "price": "14.85",
+          "source_flag": null
+        },
+        {
+          "month": "2018-02-01",
+          "price": "14.62",
+          "source_flag": null
+        },
+        {
+          "month": "2018-03-01",
+          "price": "12.4",
+          "source_flag": null
+        },
+        {
+          "month": "2018-04-01",
+          "price": "13.34",
+          "source_flag": null
+        },
+        {
+          "month": "2018-05-01",
+          "price": "14.77",
+          "source_flag": null
+        },
+        {
+          "month": "2018-06-01",
+          "price": "10.27",
+          "source_flag": null
+        },
+        {
+          "month": "2018-07-01",
+          "price": "13.77",
+          "source_flag": null
+        },
+        {
+          "month": "2018-08-01",
+          "price": "13.65",
+          "source_flag": null
+        },
+        {
+          "month": "2018-09-01",
+          "price": "12.45",
+          "source_flag": null
+        },
+        {
+          "month": "2018-10-01",
+          "price": "14.17",
+          "source_flag": null
+        },
+        {
+          "month": "2018-11-01",
+          "price": "13.18",
+          "source_flag": null
+        },
+        {
+          "month": "2018-12-01",
+          "price": "13.84",
+          "source_flag": null
+        },
+        {
+          "month": "2019-01-01",
+          "price": "17.2",
+          "source_flag": null
+        },
+        {
+          "month": "2019-02-01",
+          "price": "18.49",
+          "source_flag": null
+        },
+        {
+          "month": "2019-03-01",
+          "price": "19.88",
+          "source_flag": null
+        },
+        {
+          "month": "2019-04-01",
+          "price": "18.02",
+          "source_flag": null
+        },
+        {
+          "month": "2019-05-01",
+          "price": "15.64",
+          "source_flag": null
+        },
+        {
+          "month": "2019-06-01",
+          "price": "15.79",
+          "source_flag": null
+        },
+        {
+          "month": "2019-07-01",
+          "price": "15.79",
+          "source_flag": null
+        },
+        {
+          "month": "2019-08-01",
+          "price": "15.79",
+          "source_flag": null
+        },
+        {
+          "month": "2019-09-01",
+          "price": "14.54",
+          "source_flag": null
+        },
+        {
+          "month": "2019-10-01",
+          "price": "14.54",
+          "source_flag": null
+        },
+        {
+          "month": "2019-11-01",
+          "price": "13.32",
+          "source_flag": null
+        },
+        {
+          "month": "2019-12-01",
+          "price": "15.46",
+          "source_flag": null
+        },
+        {
+          "month": "2020-01-01",
+          "price": "13.26",
+          "source_flag": null
+        },
+        {
+          "month": "2020-02-01",
+          "price": "22.19",
+          "source_flag": null
+        },
+        {
+          "month": "2020-03-01",
+          "price": "19.65",
+          "source_flag": null
+        },
+        {
+          "month": "2020-04-01",
+          "price": "18.73",
+          "source_flag": null
+        },
+        {
+          "month": "2020-05-01",
+          "price": "19.61",
+          "source_flag": null
+        },
+        {
+          "month": "2020-06-01",
+          "price": "17.18",
+          "source_flag": null
+        },
+        {
+          "month": "2020-07-01",
+          "price": "24.63",
+          "source_flag": null
+        },
+        {
+          "month": "2020-08-01",
+          "price": "16.22",
+          "source_flag": null
+        },
+        {
+          "month": "2020-09-01",
+          "price": "14.71",
+          "source_flag": null
+        },
+        {
+          "month": "2020-10-01",
+          "price": "16.85",
+          "source_flag": null
+        },
+        {
+          "month": "2020-11-01",
+          "price": "17.25",
+          "source_flag": null
+        },
+        {
+          "month": "2020-12-01",
+          "price": "14.35",
+          "source_flag": null
+        },
+        {
+          "month": "2021-01-01",
+          "price": "19.43",
+          "source_flag": null
+        },
+        {
+          "month": "2021-02-01",
+          "price": "20.4",
+          "source_flag": null
+        },
+        {
+          "month": "2021-03-01",
+          "price": "23.41",
+          "source_flag": null
+        },
+        {
+          "month": "2021-04-01",
+          "price": "23.66",
+          "source_flag": null
+        },
+        {
+          "month": "2021-05-01",
+          "price": "24.07",
+          "source_flag": null
+        },
+        {
+          "month": "2021-06-01",
+          "price": "14.64",
+          "source_flag": null
+        },
+        {
+          "month": "2021-07-01",
+          "price": "14.64",
+          "source_flag": null
+        },
+        {
+          "month": "2021-08-01",
+          "price": "10.37",
+          "source_flag": null
+        },
+        {
+          "month": "2021-09-01",
+          "price": "25.11",
+          "source_flag": null
+        },
+        {
+          "month": "2021-10-01",
+          "price": "17.68",
+          "source_flag": null
+        },
+        {
+          "month": "2021-11-01",
+          "price": "16.55",
+          "source_flag": null
+        },
+        {
+          "month": "2021-12-01",
+          "price": "14.03",
+          "source_flag": null
+        },
+        {
+          "month": "2022-01-01",
+          "price": "14.96",
+          "source_flag": null
+        },
+        {
+          "month": "2022-02-01",
+          "price": "11.62",
+          "source_flag": null
+        },
+        {
+          "month": "2022-03-01",
+          "price": "25.71",
+          "source_flag": null
+        },
+        {
+          "month": "2022-04-01",
+          "price": "18.96",
+          "source_flag": null
+        },
+        {
+          "month": "2022-05-01",
+          "price": "17.8",
+          "source_flag": null
+        },
+        {
+          "month": "2022-06-01",
+          "price": "17.09",
+          "source_flag": null
+        },
+        {
+          "month": "2022-07-01",
+          "price": "12.26",
+          "source_flag": null
+        },
+        {
+          "month": "2022-08-01",
+          "price": "13.01",
+          "source_flag": null
+        },
+        {
+          "month": "2022-09-01",
+          "price": "13.31",
+          "source_flag": null
+        },
+        {
+          "month": "2022-10-01",
+          "price": "16.52",
+          "source_flag": null
+        },
+        {
+          "month": "2022-11-01",
+          "price": "17.03",
+          "source_flag": null
+        },
+        {
+          "month": "2022-12-01",
+          "price": "17.52",
+          "source_flag": null
+        },
+        {
+          "month": "2023-01-01",
+          "price": "14.36",
+          "source_flag": null
+        },
+        {
+          "month": "2023-02-01",
+          "price": "13.77",
+          "source_flag": null
+        },
+        {
+          "month": "2023-03-01",
+          "price": "20.38",
+          "source_flag": null
+        },
+        {
+          "month": "2023-04-01",
+          "price": "20.01",
+          "source_flag": null
+        },
+        {
+          "month": "2023-05-01",
+          "price": "20.67",
+          "source_flag": null
+        },
+        {
+          "month": "2023-06-01",
+          "price": "18.06",
+          "source_flag": null
+        },
+        {
+          "month": "2023-07-01",
+          "price": "16.39",
+          "source_flag": null
+        },
+        {
+          "month": "2023-08-01",
+          "price": "13.34",
+          "source_flag": null
+        },
+        {
+          "month": "2023-09-01",
+          "price": "15.12",
+          "source_flag": null
+        },
+        {
+          "month": "2023-10-01",
+          "price": "16.57",
+          "source_flag": null
+        },
+        {
+          "month": "2023-11-01",
+          "price": "16.33",
+          "source_flag": null
+        },
+        {
+          "month": "2023-12-01",
+          "price": "18.83",
+          "source_flag": null
+        },
+        {
+          "month": "2024-01-01",
+          "price": "13.87",
+          "source_flag": null
+        },
+        {
+          "month": "2024-02-01",
+          "price": "26.36",
+          "source_flag": null
+        },
+        {
+          "month": "2024-03-01",
+          "price": "20.9",
+          "source_flag": null
+        },
+        {
+          "month": "2024-04-01",
+          "price": "21.62",
+          "source_flag": null
+        },
+        {
+          "month": "2024-05-01",
+          "price": "20.65",
+          "source_flag": null
+        },
+        {
+          "month": "2024-06-01",
+          "price": "22.62",
+          "source_flag": null
+        },
+        {
+          "month": "2024-07-01",
+          "price": "15.3",
+          "source_flag": null
+        },
+        {
+          "month": "2024-08-01",
+          "price": "19.2",
+          "source_flag": null
+        },
+        {
+          "month": "2024-09-01",
+          "price": "16.66",
+          "source_flag": null
+        },
+        {
+          "month": "2024-10-01",
+          "price": "18.11",
+          "source_flag": null
+        },
+        {
+          "month": "2024-11-01",
+          "price": "19.64",
+          "source_flag": null
+        },
+        {
+          "month": "2024-12-01",
+          "price": "17.71",
+          "source_flag": null
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-frijol-pinto-mx",
+      "crop_id": "frijol",
+      "product": "Frijol pinto",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Cosechando Números del Campo",
+      "source_url": "https://numerosdelcampo.agricultura.gob.mx/publicnew/productosAgricolas/cargarPagina/3",
+      "retrieved_at": "2026-11-14T18:10:35+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2012-01-01",
+          "price": "18.12",
+          "source_flag": null
+        },
+        {
+          "month": "2012-02-01",
+          "price": "18.12",
+          "source_flag": null
+        },
+        {
+          "month": "2012-03-01",
+          "price": "20.44",
+          "source_flag": null
+        },
+        {
+          "month": "2012-04-01",
+          "price": "20.44",
+          "source_flag": null
+        },
+        {
+          "month": "2012-05-01",
+          "price": "19.82",
+          "source_flag": null
+        },
+        {
+          "month": "2012-06-01",
+          "price": "19.82",
+          "source_flag": null
+        },
+        {
+          "month": "2012-07-01",
+          "price": "20.41",
+          "source_flag": null
+        },
+        {
+          "month": "2012-08-01",
+          "price": "18.17",
+          "source_flag": null
+        },
+        {
+          "month": "2012-09-01",
+          "price": "14.88",
+          "source_flag": null
+        },
+        {
+          "month": "2012-10-01",
+          "price": "11.46",
+          "source_flag": null
+        },
+        {
+          "month": "2012-11-01",
+          "price": "11.21",
+          "source_flag": null
+        },
+        {
+          "month": "2012-12-01",
+          "price": "11.16",
+          "source_flag": null
+        },
+        {
+          "month": "2013-01-01",
+          "price": "10.32",
+          "source_flag": null
+        },
+        {
+          "month": "2013-02-01",
+          "price": "11.61",
+          "source_flag": null
+        },
+        {
+          "month": "2013-03-01",
+          "price": "11.03",
+          "source_flag": null
+        },
+        {
+          "month": "2013-04-01",
+          "price": "11.98",
+          "source_flag": null
+        },
+        {
+          "month": "2013-05-01",
+          "price": "11.98",
+          "source_flag": null
+        },
+        {
+          "month": "2013-06-01",
+          "price": "11.97",
+          "source_flag": null
+        },
+        {
+          "month": "2013-07-01",
+          "price": "11.5",
+          "source_flag": null
+        },
+        {
+          "month": "2013-08-01",
+          "price": "10.58",
+          "source_flag": null
+        },
+        {
+          "month": "2013-09-01",
+          "price": "11.04",
+          "source_flag": null
+        },
+        {
+          "month": "2013-10-01",
+          "price": "9.04",
+          "source_flag": null
+        },
+        {
+          "month": "2013-11-01",
+          "price": "9.42",
+          "source_flag": null
+        },
+        {
+          "month": "2013-12-01",
+          "price": "8.23",
+          "source_flag": null
+        },
+        {
+          "month": "2014-01-01",
+          "price": "9.24",
+          "source_flag": null
+        },
+        {
+          "month": "2014-02-01",
+          "price": "6.61",
+          "source_flag": null
+        },
+        {
+          "month": "2014-03-01",
+          "price": "8.06",
+          "source_flag": null
+        },
+        {
+          "month": "2014-04-01",
+          "price": "8.16",
+          "source_flag": null
+        },
+        {
+          "month": "2014-05-01",
+          "price": "9.78",
+          "source_flag": null
+        },
+        {
+          "month": "2014-06-01",
+          "price": "9.94",
+          "source_flag": null
+        },
+        {
+          "month": "2014-07-01",
+          "price": "10.05",
+          "source_flag": null
+        },
+        {
+          "month": "2014-08-01",
+          "price": "7.47",
+          "source_flag": null
+        },
+        {
+          "month": "2014-09-01",
+          "price": "8.33",
+          "source_flag": null
+        },
+        {
+          "month": "2014-10-01",
+          "price": "8.62",
+          "source_flag": null
+        },
+        {
+          "month": "2014-11-01",
+          "price": "7.36",
+          "source_flag": null
+        },
+        {
+          "month": "2014-12-01",
+          "price": "7",
+          "source_flag": null
+        },
+        {
+          "month": "2015-01-01",
+          "price": "9.85",
+          "source_flag": null
+        },
+        {
+          "month": "2015-02-01",
+          "price": "9.85",
+          "source_flag": null
+        },
+        {
+          "month": "2015-03-01",
+          "price": "9.11",
+          "source_flag": null
+        },
+        {
+          "month": "2015-04-01",
+          "price": "10.02",
+          "source_flag": null
+        },
+        {
+          "month": "2015-05-01",
+          "price": "8.07",
+          "source_flag": null
+        },
+        {
+          "month": "2015-06-01",
+          "price": "9.34",
+          "source_flag": null
+        },
+        {
+          "month": "2015-07-01",
+          "price": "8.92",
+          "source_flag": null
+        },
+        {
+          "month": "2015-08-01",
+          "price": "7.96",
+          "source_flag": null
+        },
+        {
+          "month": "2015-09-01",
+          "price": "7.78",
+          "source_flag": null
+        },
+        {
+          "month": "2015-10-01",
+          "price": "8.47",
+          "source_flag": null
+        },
+        {
+          "month": "2015-11-01",
+          "price": "8.56",
+          "source_flag": null
+        },
+        {
+          "month": "2015-12-01",
+          "price": "9.2",
+          "source_flag": null
+        },
+        {
+          "month": "2016-01-01",
+          "price": "9.17",
+          "source_flag": null
+        },
+        {
+          "month": "2016-02-01",
+          "price": "10.39",
+          "source_flag": null
+        },
+        {
+          "month": "2016-03-01",
+          "price": "14.08",
+          "source_flag": null
+        },
+        {
+          "month": "2016-04-01",
+          "price": "10.01",
+          "source_flag": null
+        },
+        {
+          "month": "2016-05-01",
+          "price": "10",
+          "source_flag": null
+        },
+        {
+          "month": "2016-06-01",
+          "price": "13.76",
+          "source_flag": null
+        },
+        {
+          "month": "2016-07-01",
+          "price": "12.89",
+          "source_flag": null
+        },
+        {
+          "month": "2016-08-01",
+          "price": "11.2",
+          "source_flag": null
+        },
+        {
+          "month": "2016-09-01",
+          "price": "10.71",
+          "source_flag": null
+        },
+        {
+          "month": "2016-10-01",
+          "price": "11.72",
+          "source_flag": null
+        },
+        {
+          "month": "2016-11-01",
+          "price": "12.23",
+          "source_flag": null
+        },
+        {
+          "month": "2016-12-01",
+          "price": "13.5",
+          "source_flag": null
+        },
+        {
+          "month": "2017-01-01",
+          "price": "12.98",
+          "source_flag": null
+        },
+        {
+          "month": "2017-02-01",
+          "price": "16.02",
+          "source_flag": null
+        },
+        {
+          "month": "2017-03-01",
+          "price": "11.82",
+          "source_flag": null
+        },
+        {
+          "month": "2017-04-01",
+          "price": "15",
+          "source_flag": null
+        },
+        {
+          "month": "2017-05-01",
+          "price": "19.21",
+          "source_flag": null
+        },
+        {
+          "month": "2017-06-01",
+          "price": "15.33",
+          "source_flag": null
+        },
+        {
+          "month": "2017-07-01",
+          "price": "16.58",
+          "source_flag": null
+        },
+        {
+          "month": "2017-08-01",
+          "price": "13.82",
+          "source_flag": null
+        },
+        {
+          "month": "2017-09-01",
+          "price": "15.84",
+          "source_flag": null
+        },
+        {
+          "month": "2017-10-01",
+          "price": "15.21",
+          "source_flag": null
+        },
+        {
+          "month": "2017-11-01",
+          "price": "12.99",
+          "source_flag": null
+        },
+        {
+          "month": "2017-12-01",
+          "price": "12.99",
+          "source_flag": null
+        },
+        {
+          "month": "2018-01-01",
+          "price": "12.13",
+          "source_flag": null
+        },
+        {
+          "month": "2018-02-01",
+          "price": "10.73",
+          "source_flag": null
+        },
+        {
+          "month": "2018-03-01",
+          "price": "9.19",
+          "source_flag": null
+        },
+        {
+          "month": "2018-04-01",
+          "price": "13.66",
+          "source_flag": null
+        },
+        {
+          "month": "2018-05-01",
+          "price": "13.65",
+          "source_flag": null
+        },
+        {
+          "month": "2018-06-01",
+          "price": "12.17",
+          "source_flag": null
+        },
+        {
+          "month": "2018-07-01",
+          "price": "11.8",
+          "source_flag": null
+        },
+        {
+          "month": "2018-08-01",
+          "price": "12.4",
+          "source_flag": null
+        },
+        {
+          "month": "2018-09-01",
+          "price": "11.68",
+          "source_flag": null
+        },
+        {
+          "month": "2018-10-01",
+          "price": "11.18",
+          "source_flag": null
+        },
+        {
+          "month": "2018-11-01",
+          "price": "9.95",
+          "source_flag": null
+        },
+        {
+          "month": "2018-12-01",
+          "price": "9.55",
+          "source_flag": null
+        },
+        {
+          "month": "2019-01-01",
+          "price": "8.89",
+          "source_flag": null
+        },
+        {
+          "month": "2019-02-01",
+          "price": "10.62",
+          "source_flag": null
+        },
+        {
+          "month": "2019-03-01",
+          "price": "11.78",
+          "source_flag": null
+        },
+        {
+          "month": "2019-04-01",
+          "price": "15.62",
+          "source_flag": null
+        },
+        {
+          "month": "2019-05-01",
+          "price": "10.98",
+          "source_flag": null
+        },
+        {
+          "month": "2019-06-01",
+          "price": "11.93",
+          "source_flag": null
+        },
+        {
+          "month": "2019-07-01",
+          "price": "10.64",
+          "source_flag": null
+        },
+        {
+          "month": "2019-08-01",
+          "price": "13.35",
+          "source_flag": null
+        },
+        {
+          "month": "2019-09-01",
+          "price": "13.75",
+          "source_flag": null
+        },
+        {
+          "month": "2019-10-01",
+          "price": "13.75",
+          "source_flag": null
+        },
+        {
+          "month": "2019-11-01",
+          "price": "15.21",
+          "source_flag": null
+        },
+        {
+          "month": "2019-12-01",
+          "price": "15.58",
+          "source_flag": null
+        },
+        {
+          "month": "2020-01-01",
+          "price": "16.11",
+          "source_flag": null
+        },
+        {
+          "month": "2020-02-01",
+          "price": "15.9",
+          "source_flag": null
+        },
+        {
+          "month": "2020-03-01",
+          "price": "15.98",
+          "source_flag": null
+        },
+        {
+          "month": "2020-04-01",
+          "price": "17.23",
+          "source_flag": null
+        },
+        {
+          "month": "2020-05-01",
+          "price": "14.83",
+          "source_flag": null
+        },
+        {
+          "month": "2020-06-01",
+          "price": "15.2",
+          "source_flag": null
+        },
+        {
+          "month": "2020-07-01",
+          "price": "17.21",
+          "source_flag": null
+        },
+        {
+          "month": "2020-08-01",
+          "price": "17.39",
+          "source_flag": null
+        },
+        {
+          "month": "2020-09-01",
+          "price": "16.22",
+          "source_flag": null
+        },
+        {
+          "month": "2020-10-01",
+          "price": "17.72",
+          "source_flag": null
+        },
+        {
+          "month": "2020-11-01",
+          "price": "16.93",
+          "source_flag": null
+        },
+        {
+          "month": "2020-12-01",
+          "price": "15.2",
+          "source_flag": null
+        },
+        {
+          "month": "2021-01-01",
+          "price": "15.96",
+          "source_flag": null
+        },
+        {
+          "month": "2021-02-01",
+          "price": "16.86",
+          "source_flag": null
+        },
+        {
+          "month": "2021-03-01",
+          "price": "18.05",
+          "source_flag": null
+        },
+        {
+          "month": "2021-04-01",
+          "price": "17.03",
+          "source_flag": null
+        },
+        {
+          "month": "2021-05-01",
+          "price": "16.58",
+          "source_flag": null
+        },
+        {
+          "month": "2021-06-01",
+          "price": "15.9",
+          "source_flag": null
+        },
+        {
+          "month": "2021-07-01",
+          "price": "15.9",
+          "source_flag": null
+        },
+        {
+          "month": "2021-08-01",
+          "price": "17.95",
+          "source_flag": null
+        },
+        {
+          "month": "2021-09-01",
+          "price": "18.79",
+          "source_flag": null
+        },
+        {
+          "month": "2021-10-01",
+          "price": "15.04",
+          "source_flag": null
+        },
+        {
+          "month": "2021-11-01",
+          "price": "14.58",
+          "source_flag": null
+        },
+        {
+          "month": "2021-12-01",
+          "price": "15.24",
+          "source_flag": null
+        },
+        {
+          "month": "2022-01-01",
+          "price": "15.85",
+          "source_flag": null
+        },
+        {
+          "month": "2022-02-01",
+          "price": "16",
+          "source_flag": null
+        },
+        {
+          "month": "2022-03-01",
+          "price": "18.82",
+          "source_flag": null
+        },
+        {
+          "month": "2022-04-01",
+          "price": "16.15",
+          "source_flag": null
+        },
+        {
+          "month": "2022-05-01",
+          "price": "14.83",
+          "source_flag": null
+        },
+        {
+          "month": "2022-06-01",
+          "price": "14.83",
+          "source_flag": null
+        },
+        {
+          "month": "2022-07-01",
+          "price": "18.88",
+          "source_flag": null
+        },
+        {
+          "month": "2022-08-01",
+          "price": "17.2",
+          "source_flag": null
+        },
+        {
+          "month": "2022-09-01",
+          "price": "19.26",
+          "source_flag": null
+        },
+        {
+          "month": "2022-10-01",
+          "price": "17.52",
+          "source_flag": null
+        },
+        {
+          "month": "2022-11-01",
+          "price": "18.71",
+          "source_flag": null
+        },
+        {
+          "month": "2022-12-01",
+          "price": "18.42",
+          "source_flag": null
+        },
+        {
+          "month": "2023-01-01",
+          "price": "17.99",
+          "source_flag": null
+        },
+        {
+          "month": "2023-02-01",
+          "price": "17.32",
+          "source_flag": null
+        },
+        {
+          "month": "2023-03-01",
+          "price": "17.78",
+          "source_flag": null
+        },
+        {
+          "month": "2023-04-01",
+          "price": "17.63",
+          "source_flag": null
+        },
+        {
+          "month": "2023-05-01",
+          "price": "15",
+          "source_flag": null
+        },
+        {
+          "month": "2023-06-01",
+          "price": "12.63",
+          "source_flag": null
+        },
+        {
+          "month": "2023-07-01",
+          "price": "12.63",
+          "source_flag": null
+        },
+        {
+          "month": "2023-08-01",
+          "price": "11.66",
+          "source_flag": null
+        },
+        {
+          "month": "2023-09-01",
+          "price": "17.81",
+          "source_flag": null
+        },
+        {
+          "month": "2023-10-01",
+          "price": "24.21",
+          "source_flag": null
+        },
+        {
+          "month": "2023-11-01",
+          "price": "21.31",
+          "source_flag": null
+        },
+        {
+          "month": "2023-12-01",
+          "price": "23.52",
+          "source_flag": null
+        },
+        {
+          "month": "2024-01-01",
+          "price": "20.31",
+          "source_flag": null
+        },
+        {
+          "month": "2024-02-01",
+          "price": "21.34",
+          "source_flag": null
+        },
+        {
+          "month": "2024-03-01",
+          "price": "20.64",
+          "source_flag": null
+        },
+        {
+          "month": "2024-04-01",
+          "price": "19.92",
+          "source_flag": null
+        },
+        {
+          "month": "2024-05-01",
+          "price": "17.65",
+          "source_flag": null
+        },
+        {
+          "month": "2024-06-01",
+          "price": "19.14",
+          "source_flag": null
+        },
+        {
+          "month": "2024-07-01",
+          "price": "20",
+          "source_flag": null
+        },
+        {
+          "month": "2024-08-01",
+          "price": "19.9",
+          "source_flag": null
+        },
+        {
+          "month": "2024-09-01",
+          "price": "19.8",
+          "source_flag": null
+        },
+        {
+          "month": "2024-10-01",
+          "price": "21.5",
+          "source_flag": null
+        },
+        {
+          "month": "2024-11-01",
+          "price": "21.51",
+          "source_flag": null
+        },
+        {
+          "month": "2024-12-01",
+          "price": "22.27",
+          "source_flag": null
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-maiz-blanco-mx",
+      "crop_id": "maiz",
+      "product": "Maíz grano blanco",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Cosechando Números del Campo",
+      "source_url": "https://numerosdelcampo.agricultura.gob.mx/publicnew/productosAgricolas/cargarPagina/5",
+      "retrieved_at": "2026-11-14T18:10:35+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2012-01-01",
+          "price": "4.08",
+          "source_flag": null
+        },
+        {
+          "month": "2012-02-01",
+          "price": "3.96",
+          "source_flag": null
+        },
+        {
+          "month": "2012-03-01",
+          "price": "4.27",
+          "source_flag": null
+        },
+        {
+          "month": "2012-04-01",
+          "price": "3.97",
+          "source_flag": null
+        },
+        {
+          "month": "2012-05-01",
+          "price": "3.58",
+          "source_flag": null
+        },
+        {
+          "month": "2012-06-01",
+          "price": "3.67",
+          "source_flag": null
+        },
+        {
+          "month": "2012-07-01",
+          "price": "3.71",
+          "source_flag": null
+        },
+        {
+          "month": "2012-08-01",
+          "price": "3.79",
+          "source_flag": null
+        },
+        {
+          "month": "2012-09-01",
+          "price": "3.81",
+          "source_flag": null
+        },
+        {
+          "month": "2012-10-01",
+          "price": "4.27",
+          "source_flag": null
+        },
+        {
+          "month": "2012-11-01",
+          "price": "4.23",
+          "source_flag": null
+        },
+        {
+          "month": "2012-12-01",
+          "price": "4.08",
+          "source_flag": null
+        },
+        {
+          "month": "2013-01-01",
+          "price": "4.05",
+          "source_flag": null
+        },
+        {
+          "month": "2013-02-01",
+          "price": "4.03",
+          "source_flag": null
+        },
+        {
+          "month": "2013-03-01",
+          "price": "4.13",
+          "source_flag": null
+        },
+        {
+          "month": "2013-04-01",
+          "price": "4.01",
+          "source_flag": null
+        },
+        {
+          "month": "2013-05-01",
+          "price": "3.71",
+          "source_flag": null
+        },
+        {
+          "month": "2013-06-01",
+          "price": "3.52",
+          "source_flag": null
+        },
+        {
+          "month": "2013-07-01",
+          "price": "3.66",
+          "source_flag": null
+        },
+        {
+          "month": "2013-08-01",
+          "price": "3.71",
+          "source_flag": null
+        },
+        {
+          "month": "2013-09-01",
+          "price": "3.67",
+          "source_flag": null
+        },
+        {
+          "month": "2013-10-01",
+          "price": "3.42",
+          "source_flag": null
+        },
+        {
+          "month": "2013-11-01",
+          "price": "3.62",
+          "source_flag": null
+        },
+        {
+          "month": "2013-12-01",
+          "price": "3.57",
+          "source_flag": null
+        },
+        {
+          "month": "2014-01-01",
+          "price": "3.39",
+          "source_flag": null
+        },
+        {
+          "month": "2014-02-01",
+          "price": "3.46",
+          "source_flag": null
+        },
+        {
+          "month": "2014-03-01",
+          "price": "3.52",
+          "source_flag": null
+        },
+        {
+          "month": "2014-04-01",
+          "price": "3.41",
+          "source_flag": null
+        },
+        {
+          "month": "2014-05-01",
+          "price": "3.42",
+          "source_flag": null
+        },
+        {
+          "month": "2014-06-01",
+          "price": "3.54",
+          "source_flag": null
+        },
+        {
+          "month": "2014-07-01",
+          "price": "3.09",
+          "source_flag": null
+        },
+        {
+          "month": "2014-08-01",
+          "price": "3.37",
+          "source_flag": null
+        },
+        {
+          "month": "2014-09-01",
+          "price": "3.31",
+          "source_flag": null
+        },
+        {
+          "month": "2014-10-01",
+          "price": "3.45",
+          "source_flag": null
+        },
+        {
+          "month": "2014-11-01",
+          "price": "3.24",
+          "source_flag": null
+        },
+        {
+          "month": "2014-12-01",
+          "price": "3",
+          "source_flag": null
+        },
+        {
+          "month": "2015-01-01",
+          "price": "3.01",
+          "source_flag": null
+        },
+        {
+          "month": "2015-02-01",
+          "price": "3.24",
+          "source_flag": null
+        },
+        {
+          "month": "2015-03-01",
+          "price": "3.39",
+          "source_flag": null
+        },
+        {
+          "month": "2015-04-01",
+          "price": "3.68",
+          "source_flag": null
+        },
+        {
+          "month": "2015-05-01",
+          "price": "3.43",
+          "source_flag": null
+        },
+        {
+          "month": "2015-06-01",
+          "price": "3.31",
+          "source_flag": null
+        },
+        {
+          "month": "2015-07-01",
+          "price": "3.29",
+          "source_flag": null
+        },
+        {
+          "month": "2015-08-01",
+          "price": "3.29",
+          "source_flag": null
+        },
+        {
+          "month": "2015-09-01",
+          "price": "3.43",
+          "source_flag": null
+        },
+        {
+          "month": "2015-10-01",
+          "price": "3.49",
+          "source_flag": null
+        },
+        {
+          "month": "2015-11-01",
+          "price": "3.63",
+          "source_flag": null
+        },
+        {
+          "month": "2015-12-01",
+          "price": "3.42",
+          "source_flag": null
+        },
+        {
+          "month": "2016-01-01",
+          "price": "3.47",
+          "source_flag": null
+        },
+        {
+          "month": "2016-02-01",
+          "price": "3.43",
+          "source_flag": null
+        },
+        {
+          "month": "2016-03-01",
+          "price": "3.86",
+          "source_flag": null
+        },
+        {
+          "month": "2016-04-01",
+          "price": "3.71",
+          "source_flag": null
+        },
+        {
+          "month": "2016-05-01",
+          "price": "3.49",
+          "source_flag": null
+        },
+        {
+          "month": "2016-06-01",
+          "price": "3.85",
+          "source_flag": null
+        },
+        {
+          "month": "2016-07-01",
+          "price": "3.69",
+          "source_flag": null
+        },
+        {
+          "month": "2016-08-01",
+          "price": "3.72",
+          "source_flag": null
+        },
+        {
+          "month": "2016-09-01",
+          "price": "3.65",
+          "source_flag": null
+        },
+        {
+          "month": "2016-10-01",
+          "price": "3.7",
+          "source_flag": null
+        },
+        {
+          "month": "2016-11-01",
+          "price": "3.7",
+          "source_flag": null
+        },
+        {
+          "month": "2016-12-01",
+          "price": "3.64",
+          "source_flag": null
+        },
+        {
+          "month": "2017-01-01",
+          "price": "3.76",
+          "source_flag": null
+        },
+        {
+          "month": "2017-02-01",
+          "price": "4.07",
+          "source_flag": null
+        },
+        {
+          "month": "2017-03-01",
+          "price": "3.77",
+          "source_flag": null
+        },
+        {
+          "month": "2017-04-01",
+          "price": "3.88",
+          "source_flag": null
+        },
+        {
+          "month": "2017-05-01",
+          "price": "3.67",
+          "source_flag": null
+        },
+        {
+          "month": "2017-06-01",
+          "price": "3.62",
+          "source_flag": null
+        },
+        {
+          "month": "2017-07-01",
+          "price": "3.36",
+          "source_flag": null
+        },
+        {
+          "month": "2017-08-01",
+          "price": "3.54",
+          "source_flag": null
+        },
+        {
+          "month": "2017-09-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2017-10-01",
+          "price": "3.56",
+          "source_flag": null
+        },
+        {
+          "month": "2017-11-01",
+          "price": "3.66",
+          "source_flag": null
+        },
+        {
+          "month": "2017-12-01",
+          "price": "3.63",
+          "source_flag": null
+        },
+        {
+          "month": "2018-01-01",
+          "price": "3.65",
+          "source_flag": null
+        },
+        {
+          "month": "2018-02-01",
+          "price": "3.66",
+          "source_flag": null
+        },
+        {
+          "month": "2018-03-01",
+          "price": "3.66",
+          "source_flag": null
+        },
+        {
+          "month": "2018-04-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2018-05-01",
+          "price": "3.89",
+          "source_flag": null
+        },
+        {
+          "month": "2018-06-01",
+          "price": "3.82",
+          "source_flag": null
+        },
+        {
+          "month": "2018-07-01",
+          "price": "3.66",
+          "source_flag": null
+        },
+        {
+          "month": "2018-08-01",
+          "price": "3.94",
+          "source_flag": null
+        },
+        {
+          "month": "2018-09-01",
+          "price": "3.93",
+          "source_flag": null
+        },
+        {
+          "month": "2018-10-01",
+          "price": "3.84",
+          "source_flag": null
+        },
+        {
+          "month": "2018-11-01",
+          "price": "3.91",
+          "source_flag": null
+        },
+        {
+          "month": "2018-12-01",
+          "price": "3.89",
+          "source_flag": null
+        },
+        {
+          "month": "2019-01-01",
+          "price": "4.03",
+          "source_flag": null
+        },
+        {
+          "month": "2019-02-01",
+          "price": "3.94",
+          "source_flag": null
+        },
+        {
+          "month": "2019-03-01",
+          "price": "3.97",
+          "source_flag": null
+        },
+        {
+          "month": "2019-04-01",
+          "price": "4.03",
+          "source_flag": null
+        },
+        {
+          "month": "2019-05-01",
+          "price": "3.71",
+          "source_flag": null
+        },
+        {
+          "month": "2019-06-01",
+          "price": "3.69",
+          "source_flag": null
+        },
+        {
+          "month": "2019-07-01",
+          "price": "3.64",
+          "source_flag": null
+        },
+        {
+          "month": "2019-08-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2019-09-01",
+          "price": "4.05",
+          "source_flag": null
+        },
+        {
+          "month": "2019-10-01",
+          "price": "4.05",
+          "source_flag": null
+        },
+        {
+          "month": "2019-11-01",
+          "price": "4.11",
+          "source_flag": null
+        },
+        {
+          "month": "2019-12-01",
+          "price": "4.25",
+          "source_flag": null
+        },
+        {
+          "month": "2020-01-01",
+          "price": "4.25",
+          "source_flag": null
+        },
+        {
+          "month": "2020-02-01",
+          "price": "4.48",
+          "source_flag": null
+        },
+        {
+          "month": "2020-03-01",
+          "price": "4.47",
+          "source_flag": null
+        },
+        {
+          "month": "2020-04-01",
+          "price": "4.04",
+          "source_flag": null
+        },
+        {
+          "month": "2020-05-01",
+          "price": "4.04",
+          "source_flag": null
+        },
+        {
+          "month": "2020-06-01",
+          "price": "3.73",
+          "source_flag": null
+        },
+        {
+          "month": "2020-07-01",
+          "price": "4.03",
+          "source_flag": null
+        },
+        {
+          "month": "2020-08-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2020-09-01",
+          "price": "4.12",
+          "source_flag": null
+        },
+        {
+          "month": "2020-10-01",
+          "price": "4.3",
+          "source_flag": null
+        },
+        {
+          "month": "2020-11-01",
+          "price": "4.31",
+          "source_flag": null
+        },
+        {
+          "month": "2020-12-01",
+          "price": "4.41",
+          "source_flag": null
+        },
+        {
+          "month": "2021-01-01",
+          "price": "4.4",
+          "source_flag": null
+        },
+        {
+          "month": "2021-02-01",
+          "price": "4.4",
+          "source_flag": null
+        },
+        {
+          "month": "2021-03-01",
+          "price": "4.36",
+          "source_flag": null
+        },
+        {
+          "month": "2021-04-01",
+          "price": "4.49",
+          "source_flag": null
+        },
+        {
+          "month": "2021-05-01",
+          "price": "5.63",
+          "source_flag": null
+        },
+        {
+          "month": "2021-06-01",
+          "price": "5.96",
+          "source_flag": null
+        },
+        {
+          "month": "2021-07-01",
+          "price": "5.23",
+          "source_flag": null
+        },
+        {
+          "month": "2021-08-01",
+          "price": "5.13",
+          "source_flag": null
+        },
+        {
+          "month": "2021-09-01",
+          "price": "5.55",
+          "source_flag": null
+        },
+        {
+          "month": "2021-10-01",
+          "price": "4.78",
+          "source_flag": null
+        },
+        {
+          "month": "2021-11-01",
+          "price": "5.08",
+          "source_flag": null
+        },
+        {
+          "month": "2021-12-01",
+          "price": "5.52",
+          "source_flag": null
+        },
+        {
+          "month": "2022-01-01",
+          "price": "5.34",
+          "source_flag": null
+        },
+        {
+          "month": "2022-02-01",
+          "price": "5.44",
+          "source_flag": null
+        },
+        {
+          "month": "2022-03-01",
+          "price": "4.81",
+          "source_flag": null
+        },
+        {
+          "month": "2022-04-01",
+          "price": "5.3",
+          "source_flag": null
+        },
+        {
+          "month": "2022-05-01",
+          "price": "6.51",
+          "source_flag": null
+        },
+        {
+          "month": "2022-06-01",
+          "price": "6.67",
+          "source_flag": null
+        },
+        {
+          "month": "2022-07-01",
+          "price": "6.39",
+          "source_flag": null
+        },
+        {
+          "month": "2022-08-01",
+          "price": "5.16",
+          "source_flag": null
+        },
+        {
+          "month": "2022-09-01",
+          "price": "4.54",
+          "source_flag": null
+        },
+        {
+          "month": "2022-10-01",
+          "price": "6.03",
+          "source_flag": null
+        },
+        {
+          "month": "2022-11-01",
+          "price": "6.42",
+          "source_flag": null
+        },
+        {
+          "month": "2022-12-01",
+          "price": "6.63",
+          "source_flag": null
+        },
+        {
+          "month": "2023-01-01",
+          "price": "6.53",
+          "source_flag": null
+        },
+        {
+          "month": "2023-02-01",
+          "price": "6.25",
+          "source_flag": null
+        },
+        {
+          "month": "2023-03-01",
+          "price": "5.6",
+          "source_flag": null
+        },
+        {
+          "month": "2023-04-01",
+          "price": "5.21",
+          "source_flag": null
+        },
+        {
+          "month": "2023-05-01",
+          "price": "5.43",
+          "source_flag": null
+        },
+        {
+          "month": "2023-06-01",
+          "price": "5.16",
+          "source_flag": null
+        },
+        {
+          "month": "2023-07-01",
+          "price": "5.22",
+          "source_flag": null
+        },
+        {
+          "month": "2023-08-01",
+          "price": "5.35",
+          "source_flag": null
+        },
+        {
+          "month": "2023-09-01",
+          "price": "4.82",
+          "source_flag": null
+        },
+        {
+          "month": "2023-10-01",
+          "price": "5.26",
+          "source_flag": null
+        },
+        {
+          "month": "2023-11-01",
+          "price": "5.66",
+          "source_flag": null
+        },
+        {
+          "month": "2023-12-01",
+          "price": "5.81",
+          "source_flag": null
+        },
+        {
+          "month": "2024-01-01",
+          "price": "5.68",
+          "source_flag": null
+        },
+        {
+          "month": "2024-02-01",
+          "price": "6.3",
+          "source_flag": null
+        },
+        {
+          "month": "2024-03-01",
+          "price": "5.02",
+          "source_flag": null
+        },
+        {
+          "month": "2024-04-01",
+          "price": "5.12",
+          "source_flag": null
+        },
+        {
+          "month": "2024-05-01",
+          "price": "5.04",
+          "source_flag": null
+        },
+        {
+          "month": "2024-06-01",
+          "price": "4.47",
+          "source_flag": null
+        },
+        {
+          "month": "2024-07-01",
+          "price": "5.03",
+          "source_flag": null
+        },
+        {
+          "month": "2024-08-01",
+          "price": "5.31",
+          "source_flag": null
+        },
+        {
+          "month": "2024-09-01",
+          "price": "5.19",
+          "source_flag": null
+        },
+        {
+          "month": "2024-10-01",
+          "price": "5.27",
+          "source_flag": null
+        },
+        {
+          "month": "2024-11-01",
+          "price": "5.81",
+          "source_flag": null
+        },
+        {
+          "month": "2024-12-01",
+          "price": "6.09",
+          "source_flag": null
+        }
+      ]
+    },
+    {
+      "series_id": "dgsiap-maiz-amarillo-mx",
+      "crop_id": "maiz",
+      "product": "Maíz grano amarillo",
+      "geography": "México",
+      "geography_code": "MEX",
+      "currency": "MXN",
+      "unit": "kg",
+      "source_name": "DGSIAP · Cosechando Números del Campo",
+      "source_url": "https://numerosdelcampo.agricultura.gob.mx/publicnew/productosAgricolas/cargarPagina/4",
+      "retrieved_at": "2026-11-14T18:10:35+00:00",
+      "price_scope": "producer",
+      "variety_match": "exact",
+      "download_url": null,
+      "rows": [
+        {
+          "month": "2012-01-01",
+          "price": "3.56",
+          "source_flag": null
+        },
+        {
+          "month": "2012-02-01",
+          "price": "3.77",
+          "source_flag": null
+        },
+        {
+          "month": "2012-03-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2012-04-01",
+          "price": "3.29",
+          "source_flag": null
+        },
+        {
+          "month": "2012-05-01",
+          "price": "3.41",
+          "source_flag": null
+        },
+        {
+          "month": "2012-06-01",
+          "price": "3.6",
+          "source_flag": null
+        },
+        {
+          "month": "2012-07-01",
+          "price": "3.61",
+          "source_flag": null
+        },
+        {
+          "month": "2012-08-01",
+          "price": "4.26",
+          "source_flag": null
+        },
+        {
+          "month": "2012-09-01",
+          "price": "4.46",
+          "source_flag": null
+        },
+        {
+          "month": "2012-10-01",
+          "price": "3.68",
+          "source_flag": null
+        },
+        {
+          "month": "2012-11-01",
+          "price": "3.69",
+          "source_flag": null
+        },
+        {
+          "month": "2012-12-01",
+          "price": "3.77",
+          "source_flag": null
+        },
+        {
+          "month": "2013-01-01",
+          "price": "3.64",
+          "source_flag": null
+        },
+        {
+          "month": "2013-02-01",
+          "price": "3.58",
+          "source_flag": null
+        },
+        {
+          "month": "2013-03-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2013-04-01",
+          "price": "3.48",
+          "source_flag": null
+        },
+        {
+          "month": "2013-05-01",
+          "price": "3.44",
+          "source_flag": null
+        },
+        {
+          "month": "2013-06-01",
+          "price": "3.59",
+          "source_flag": null
+        },
+        {
+          "month": "2013-07-01",
+          "price": "3.58",
+          "source_flag": null
+        },
+        {
+          "month": "2013-08-01",
+          "price": "3.78",
+          "source_flag": null
+        },
+        {
+          "month": "2013-09-01",
+          "price": "3.68",
+          "source_flag": null
+        },
+        {
+          "month": "2013-10-01",
+          "price": "3.16",
+          "source_flag": null
+        },
+        {
+          "month": "2013-11-01",
+          "price": "3",
+          "source_flag": null
+        },
+        {
+          "month": "2013-12-01",
+          "price": "3.03",
+          "source_flag": null
+        },
+        {
+          "month": "2014-01-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2014-02-01",
+          "price": "3.58",
+          "source_flag": null
+        },
+        {
+          "month": "2014-03-01",
+          "price": "3.64",
+          "source_flag": null
+        },
+        {
+          "month": "2014-04-01",
+          "price": "3.17",
+          "source_flag": null
+        },
+        {
+          "month": "2014-05-01",
+          "price": "3.35",
+          "source_flag": null
+        },
+        {
+          "month": "2014-06-01",
+          "price": "3.15",
+          "source_flag": null
+        },
+        {
+          "month": "2014-07-01",
+          "price": "2.98",
+          "source_flag": null
+        },
+        {
+          "month": "2014-08-01",
+          "price": "2.67",
+          "source_flag": null
+        },
+        {
+          "month": "2014-09-01",
+          "price": "2.91",
+          "source_flag": null
+        },
+        {
+          "month": "2014-10-01",
+          "price": "2.61",
+          "source_flag": null
+        },
+        {
+          "month": "2014-11-01",
+          "price": "2.61",
+          "source_flag": null
+        },
+        {
+          "month": "2014-12-01",
+          "price": "2.8",
+          "source_flag": null
+        },
+        {
+          "month": "2015-01-01",
+          "price": "2.97",
+          "source_flag": null
+        },
+        {
+          "month": "2015-02-01",
+          "price": "3.32",
+          "source_flag": null
+        },
+        {
+          "month": "2015-03-01",
+          "price": "3.92",
+          "source_flag": null
+        },
+        {
+          "month": "2015-04-01",
+          "price": "3.57",
+          "source_flag": null
+        },
+        {
+          "month": "2015-05-01",
+          "price": "3.63",
+          "source_flag": null
+        },
+        {
+          "month": "2015-06-01",
+          "price": "3.41",
+          "source_flag": null
+        },
+        {
+          "month": "2015-07-01",
+          "price": "3.13",
+          "source_flag": null
+        },
+        {
+          "month": "2015-08-01",
+          "price": "3.16",
+          "source_flag": null
+        },
+        {
+          "month": "2015-09-01",
+          "price": "3.32",
+          "source_flag": null
+        },
+        {
+          "month": "2015-10-01",
+          "price": "3.16",
+          "source_flag": null
+        },
+        {
+          "month": "2015-11-01",
+          "price": "3.1",
+          "source_flag": null
+        },
+        {
+          "month": "2015-12-01",
+          "price": "3.25",
+          "source_flag": null
+        },
+        {
+          "month": "2016-01-01",
+          "price": "3.49",
+          "source_flag": null
+        },
+        {
+          "month": "2016-02-01",
+          "price": "3.38",
+          "source_flag": null
+        },
+        {
+          "month": "2016-03-01",
+          "price": "3.38",
+          "source_flag": null
+        },
+        {
+          "month": "2016-04-01",
+          "price": "3.58",
+          "source_flag": null
+        },
+        {
+          "month": "2016-05-01",
+          "price": "3.27",
+          "source_flag": null
+        },
+        {
+          "month": "2016-06-01",
+          "price": "3.62",
+          "source_flag": null
+        },
+        {
+          "month": "2016-07-01",
+          "price": "3.65",
+          "source_flag": null
+        },
+        {
+          "month": "2016-08-01",
+          "price": "3.23",
+          "source_flag": null
+        },
+        {
+          "month": "2016-09-01",
+          "price": "3.57",
+          "source_flag": null
+        },
+        {
+          "month": "2016-10-01",
+          "price": "3.42",
+          "source_flag": null
+        },
+        {
+          "month": "2016-11-01",
+          "price": "3.32",
+          "source_flag": null
+        },
+        {
+          "month": "2016-12-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2017-01-01",
+          "price": "3.77",
+          "source_flag": null
+        },
+        {
+          "month": "2017-02-01",
+          "price": "3.55",
+          "source_flag": null
+        },
+        {
+          "month": "2017-03-01",
+          "price": "3.63",
+          "source_flag": null
+        },
+        {
+          "month": "2017-04-01",
+          "price": "3.41",
+          "source_flag": null
+        },
+        {
+          "month": "2017-05-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2017-06-01",
+          "price": "3.18",
+          "source_flag": null
+        },
+        {
+          "month": "2017-07-01",
+          "price": "3.03",
+          "source_flag": null
+        },
+        {
+          "month": "2017-08-01",
+          "price": "3.36",
+          "source_flag": null
+        },
+        {
+          "month": "2017-09-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2017-10-01",
+          "price": "3.33",
+          "source_flag": null
+        },
+        {
+          "month": "2017-11-01",
+          "price": "3.31",
+          "source_flag": null
+        },
+        {
+          "month": "2017-12-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2018-01-01",
+          "price": "3.73",
+          "source_flag": null
+        },
+        {
+          "month": "2018-02-01",
+          "price": "3.67",
+          "source_flag": null
+        },
+        {
+          "month": "2018-03-01",
+          "price": "3.5",
+          "source_flag": null
+        },
+        {
+          "month": "2018-04-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2018-05-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2018-06-01",
+          "price": "3.74",
+          "source_flag": null
+        },
+        {
+          "month": "2018-07-01",
+          "price": "3.55",
+          "source_flag": null
+        },
+        {
+          "month": "2018-08-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2018-09-01",
+          "price": "3.51",
+          "source_flag": null
+        },
+        {
+          "month": "2018-10-01",
+          "price": "3.4",
+          "source_flag": null
+        },
+        {
+          "month": "2018-11-01",
+          "price": "3.62",
+          "source_flag": null
+        },
+        {
+          "month": "2018-12-01",
+          "price": "3.64",
+          "source_flag": null
+        },
+        {
+          "month": "2019-01-01",
+          "price": "3.96",
+          "source_flag": null
+        },
+        {
+          "month": "2019-02-01",
+          "price": "3.94",
+          "source_flag": null
+        },
+        {
+          "month": "2019-03-01",
+          "price": "3.94",
+          "source_flag": null
+        },
+        {
+          "month": "2019-04-01",
+          "price": "3.94",
+          "source_flag": null
+        },
+        {
+          "month": "2019-05-01",
+          "price": "3.76",
+          "source_flag": null
+        },
+        {
+          "month": "2019-06-01",
+          "price": "3.36",
+          "source_flag": null
+        },
+        {
+          "month": "2019-07-01",
+          "price": "3.19",
+          "source_flag": null
+        },
+        {
+          "month": "2019-08-01",
+          "price": "3.14",
+          "source_flag": null
+        },
+        {
+          "month": "2019-09-01",
+          "price": "3.14",
+          "source_flag": null
+        },
+        {
+          "month": "2019-10-01",
+          "price": "3.14",
+          "source_flag": null
+        },
+        {
+          "month": "2019-11-01",
+          "price": "3.74",
+          "source_flag": null
+        },
+        {
+          "month": "2019-12-01",
+          "price": "4",
+          "source_flag": null
+        },
+        {
+          "month": "2020-01-01",
+          "price": "4.24",
+          "source_flag": null
+        },
+        {
+          "month": "2020-02-01",
+          "price": "4.33",
+          "source_flag": null
+        },
+        {
+          "month": "2020-03-01",
+          "price": "4.46",
+          "source_flag": null
+        },
+        {
+          "month": "2020-04-01",
+          "price": "3.92",
+          "source_flag": null
+        },
+        {
+          "month": "2020-05-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2020-06-01",
+          "price": "3.77",
+          "source_flag": null
+        },
+        {
+          "month": "2020-07-01",
+          "price": "3.8",
+          "source_flag": null
+        },
+        {
+          "month": "2020-08-01",
+          "price": "3.82",
+          "source_flag": null
+        },
+        {
+          "month": "2020-09-01",
+          "price": "4.23",
+          "source_flag": null
+        },
+        {
+          "month": "2020-10-01",
+          "price": "4.24",
+          "source_flag": null
+        },
+        {
+          "month": "2020-11-01",
+          "price": "4.37",
+          "source_flag": null
+        },
+        {
+          "month": "2020-12-01",
+          "price": "4.33",
+          "source_flag": null
+        },
+        {
+          "month": "2021-01-01",
+          "price": "4.36",
+          "source_flag": null
+        },
+        {
+          "month": "2021-02-01",
+          "price": "4.31",
+          "source_flag": null
+        },
+        {
+          "month": "2021-03-01",
+          "price": "3.86",
+          "source_flag": null
+        },
+        {
+          "month": "2021-04-01",
+          "price": "3.75",
+          "source_flag": null
+        },
+        {
+          "month": "2021-05-01",
+          "price": "4.47",
+          "source_flag": null
+        },
+        {
+          "month": "2021-06-01",
+          "price": "4.63",
+          "source_flag": null
+        },
+        {
+          "month": "2021-07-01",
+          "price": "5.27",
+          "source_flag": null
+        },
+        {
+          "month": "2021-08-01",
+          "price": "5.95",
+          "source_flag": null
+        },
+        {
+          "month": "2021-09-01",
+          "price": "6",
+          "source_flag": null
+        },
+        {
+          "month": "2021-10-01",
+          "price": "5.44",
+          "source_flag": null
+        },
+        {
+          "month": "2021-11-01",
+          "price": "5.21",
+          "source_flag": null
+        },
+        {
+          "month": "2021-12-01",
+          "price": "5.52",
+          "source_flag": null
+        },
+        {
+          "month": "2022-01-01",
+          "price": "5.57",
+          "source_flag": null
+        },
+        {
+          "month": "2022-02-01",
+          "price": "5.48",
+          "source_flag": null
+        },
+        {
+          "month": "2022-03-01",
+          "price": "4.88",
+          "source_flag": null
+        },
+        {
+          "month": "2022-04-01",
+          "price": "5.87",
+          "source_flag": null
+        },
+        {
+          "month": "2022-05-01",
+          "price": "5.33",
+          "source_flag": null
+        },
+        {
+          "month": "2022-06-01",
+          "price": "5.84",
+          "source_flag": null
+        },
+        {
+          "month": "2022-07-01",
+          "price": "6.25",
+          "source_flag": null
+        },
+        {
+          "month": "2022-08-01",
+          "price": "5.82",
+          "source_flag": null
+        },
+        {
+          "month": "2022-09-01",
+          "price": "6.8",
+          "source_flag": null
+        },
+        {
+          "month": "2022-10-01",
+          "price": "6.49",
+          "source_flag": null
+        },
+        {
+          "month": "2022-11-01",
+          "price": "6.58",
+          "source_flag": null
+        },
+        {
+          "month": "2022-12-01",
+          "price": "6.74",
+          "source_flag": null
+        },
+        {
+          "month": "2023-01-01",
+          "price": "6.73",
+          "source_flag": null
+        },
+        {
+          "month": "2023-02-01",
+          "price": "6.13",
+          "source_flag": null
+        },
+        {
+          "month": "2023-03-01",
+          "price": "5.8",
+          "source_flag": null
+        },
+        {
+          "month": "2023-04-01",
+          "price": "6.22",
+          "source_flag": null
+        },
+        {
+          "month": "2023-05-01",
+          "price": "5.52",
+          "source_flag": null
+        },
+        {
+          "month": "2023-06-01",
+          "price": "5.29",
+          "source_flag": null
+        },
+        {
+          "month": "2023-07-01",
+          "price": "4.56",
+          "source_flag": null
+        },
+        {
+          "month": "2023-08-01",
+          "price": "4.33",
+          "source_flag": null
+        },
+        {
+          "month": "2023-09-01",
+          "price": "5.09",
+          "source_flag": null
+        },
+        {
+          "month": "2023-10-01",
+          "price": "4.87",
+          "source_flag": null
+        },
+        {
+          "month": "2023-11-01",
+          "price": "5.03",
+          "source_flag": null
+        },
+        {
+          "month": "2023-12-01",
+          "price": "5.16",
+          "source_flag": null
+        },
+        {
+          "month": "2024-01-01",
+          "price": "4.95",
+          "source_flag": null
+        },
+        {
+          "month": "2024-02-01",
+          "price": "7.15",
+          "source_flag": null
+        },
+        {
+          "month": "2024-03-01",
+          "price": "6.56",
+          "source_flag": null
+        },
+        {
+          "month": "2024-04-01",
+          "price": "5.95",
+          "source_flag": null
+        },
+        {
+          "month": "2024-05-01",
+          "price": "5.05",
+          "source_flag": null
+        },
+        {
+          "month": "2024-06-01",
+          "price": "4.96",
+          "source_flag": null
+        },
+        {
+          "month": "2024-07-01",
+          "price": "4.81",
+          "source_flag": null
+        },
+        {
+          "month": "2024-08-01",
+          "price": "5.49",
+          "source_flag": null
+        },
+        {
+          "month": "2024-09-01",
+          "price": "5.21",
+          "source_flag": null
+        },
+        {
+          "month": "2024-10-01",
+          "price": "5.95",
+          "source_flag": null
+        },
+        {
+          "month": "2024-11-01",
+          "price": "5.44",
+          "source_flag": null
+        },
+        {
+          "month": "2024-12-01",
+          "price": "6.22",
+          "source_flag": null
+        }
+      ]
+    }
+  ]
+}
