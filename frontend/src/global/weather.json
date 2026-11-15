@@ -1,0 +1,37 @@
+{
+  "campeche": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "sourceUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M&community=AG&longitude=-89.8306&latitude=19.7456&start=20261026&end=20261101&format=JSON&time-standard=LST",
+    "precipitationMm": 18.4,
+    "temperatureC": 24.2
+  },
+  "yucatan": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "sourceUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M&community=AG&longitude=-88.215&latitude=21.129&start=20261026&end=20261101&format=JSON&time-standard=LST",
+    "precipitationMm": 15.2,
+    "temperatureC": 24.5
+  },
+  "iowa": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "sourceUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M&community=AG&longitude=-93.7936&latitude=42.0159&start=20261026&end=20261101&format=JSON&time-standard=LST",
+    "precipitationMm": 10.4,
+    "temperatureC": 13.7
+  },
+  "beauce": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "sourceUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M&community=AG&longitude=1.6095&latitude=48.2633&start=20261026&end=20261101&format=JSON&time-standard=LST",
+    "precipitationMm": 1.0,
+    "temperatureC": 9.1
+  },
+  "mato-grosso": {
+    "start": "2026-10-26",
+    "end": "2026-11-01",
+    "sourceUrl": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=PRECTOTCORR%2CT2M&community=AG&longitude=-55.718&latitude=-12.5954&start=20261026&end=20261101&format=JSON&time-standard=LST",
+    "precipitationMm": 49.9,
+    "temperatureC": 29.0
+  }
+}

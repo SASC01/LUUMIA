@@ -1,0 +1,297 @@
+.global-explorer {
+  color: #e9f3ea;
+  background: radial-gradient(ellipse at 67% 44%, #132e30, #0a171a 64%);
+}
+
+.global-explorer-inner, .global-plot, .global-site-header .header-inner {
+  width: min(96rem, 100% - clamp(2rem, 7vw, 8rem));
+  margin-inline: auto;
+}
+
+.global-explorer-inner {
+  display: grid;
+  grid-template-columns: minmax(14.5rem, .34fr) minmax(0, 1fr);
+  grid-template-areas: "intro globe" "places globe" "credit globe";
+  grid-template-rows: auto auto 1fr;
+  align-items: start;
+  column-gap: clamp(.75rem, 3vw, 2.5rem);
+  row-gap: clamp(1rem, 2.8vh, 1.8rem);
+  padding-block: clamp(2rem, 6vw, 5rem) 1.5rem;
+  min-height: max(42rem, calc(100svh - 4.25rem));
+}
+
+.global-explorer :focus-visible { outline-color: #e8c275; }
+.global-intro { grid-area: intro; position: relative; z-index: 1; }
+.global-kicker {
+  display: flex;
+  align-items: center;
+  gap: .56rem;
+  color: #a8cbba;
+  font-weight: 650;
+  letter-spacing: .015em;
+}
+.global-kicker > span { width: .52rem; height: .52rem; border-radius: 50%; background: #f2ca77; }
+.global-intro h1 {
+  margin-block: .65rem 1.05rem;
+  font-size: clamp(2.45rem, 4.5vw, 4.7rem);
+  font-weight: 740;
+  letter-spacing: -.055em;
+  line-height: .99;
+  text-wrap: wrap;
+}
+.global-intro > p:last-child { color: #b8ccc3; max-width: 32ch; }
+.global-orbit {
+  grid-area: globe;
+  min-width: 0;
+  position: relative;
+  width: 100%;
+  height: clamp(31rem, 53vw, 54rem);
+  max-height: max(37rem, calc(100svh - 10rem));
+  isolation: isolate;
+}
+
+.global-site-list {
+  grid-area: places;
+  display: grid;
+  align-self: start;
+  border-block-start: 1px solid #365653;
+  position: relative;
+  z-index: 1;
+}
+.global-site-list button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .55rem;
+  border: 0;
+  border-block-end: 1px solid #365653;
+  background: transparent;
+  color: #eef6ee;
+  text-align: start;
+  padding: .65rem .5rem;
+  min-block-size: 2.9rem;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+.global-site-list button:hover, .global-site-list button[aria-current="true"] { background-color: #1a3937; }
+.global-site-list button strong { display: block; font-weight: 660; }
+.global-site-list button small { display: block; color: #acc4ba; font-size: .83rem; }
+.global-site-list button > span:last-child { color: #f2ca77; font-size: 1.14rem; }
+.global-credit { grid-area: credit; align-self: end; padding-block-start: .25rem; font-size: .83rem; }
+.global-credit a { color: #a6c6bb; }
+
+.global-plot { padding-block: 1.25rem clamp(2rem, 5vw, 4rem); }
+.global-plot-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: .9rem 2rem;
+  margin-bottom: 1.35rem;
+}
+.global-plot-header h1 { color: #173e2d; font-size: clamp(2rem, 4vw, 3.5rem); letter-spacing: -.035em; }
+.global-plot-header p { color: var(--muted); font-size: 1rem; }
+.global-back {
+  min-height: 2.65rem;
+  padding: .4rem .45rem .4rem 0;
+  color: #235743;
+  background: none;
+  border: 0;
+  font-weight: 650;
+}
+.global-back:hover { text-decoration: underline; }
+.global-plot-header label { font-weight: 650; width: min(18rem, 100%); color: #1a4030; }
+.global-plot-header select {
+  display: block;
+  padding: .55rem .75rem;
+  margin-top: .3rem;
+  min-height: 2.75rem;
+  color: #23362b;
+  background: white;
+  border: 1px solid #aabdb0;
+  border-radius: .45rem;
+  font-weight: 500;
+}
+.global-workbench {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(20.5rem, 1fr);
+  align-items: start;
+  gap: clamp(.9rem, 2.5vw, 2.25rem);
+}
+.global-map-column { min-width: 0; }
+.global-map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .7rem;
+  margin-bottom: .75rem;
+}
+.global-map-toolbar h2 { margin: 0 0 .12rem; color: #173e2d; font-size: 1.24rem; }
+.global-map-toolbar > div > span { color: #52665a; font-size: .87rem; font-variant-numeric: tabular-nums; }
+.global-layer-switch {
+  display: inline-flex;
+  gap: .12rem;
+  padding: .18rem;
+  border-radius: .58rem;
+  border: 1px solid #c8d8cd;
+  background: #eaf0e9;
+}
+.global-layer-switch button {
+  border: 0;
+  border-radius: .38rem;
+  padding: .43rem .62rem;
+  min-height: 2.5rem;
+  background: transparent;
+  font-size: .9rem;
+  font-weight: 650;
+  color: #264638;
+}
+.global-layer-switch button:hover { background: #d9e7db; }
+.global-layer-switch button[aria-pressed="true"] { background: #1f513d; color: white; }
+
+.global-plot-map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  isolation: isolate;
+  overflow: hidden;
+  border-radius: .78rem;
+  border: 1px solid #557361;
+  background: #223e32 repeating-linear-gradient(152deg, transparent 0 17px, #7a976d22 18px 19px);
+  animation: global-map-arrival .48s ease-out both;
+}
+@keyframes global-map-arrival { from { opacity: 0; transform: scale(.965); } }
+.global-map-coordinates { position: absolute; inset: 50% 0 auto; aspect-ratio: 1; transform: translateY(-50%); }
+.global-map-image, .global-map-field { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.global-map-image { max-width: none; object-fit: fill; pointer-events: none; transition: width .33s ease, height .33s ease; }
+.global-map-ndvi { image-rendering: pixelated; opacity: .79; }
+.global-map-no-terrain {
+  position: absolute;
+  inset: .75rem auto auto .75rem;
+  padding: .28rem .42rem;
+  color: #e6f1e7;
+  background: #13291ee8;
+  border-radius: .25rem;
+}
+.global-map-north, .global-map-scale {
+  position: absolute;
+  z-index: 3;
+  background: #0b211de8;
+  color: white;
+  font-size: .75rem;
+  padding: .28rem .47rem;
+  border-radius: .25rem;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+.global-map-north { inset: .75rem .75rem auto auto; }
+.global-map-scale { inset: auto auto .75rem .75rem; width: calc(20% + .94rem); white-space: nowrap; text-align: center; }
+.global-map-scale span { display: block; height: .22rem; border: 1px solid white; border-top: 0; margin-bottom: .12rem; }
+.global-map-field { z-index: 2; outline: 2px solid #f9fbef; box-shadow: 0 0 0 4px #17352a, 0 .6rem 1.8rem #10241e56; }
+.global-map-strips { display: flex; height: 100%; width: 100%; overflow: hidden; background: #173a2857; }
+.global-map-strip {
+  flex: 0 0 auto;
+  min-width: 0;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-color: color-mix(in srgb, var(--crop-tone) 50%, transparent);
+  background-image: repeating-linear-gradient(150deg, transparent 0 13px, #f1f6d547 13px 14px);
+  border-inline-end: 1px solid #f2f4dfd9;
+  overflow: hidden;
+}
+.global-map-strip span { max-width: 95%; color: #fff; background: #103020e8; padding: .14rem .35rem; border-radius: .25rem; font-size: clamp(.72rem, 1.5vw, .96rem); font-weight: 650; }
+.global-map-boundary {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  width: 2rem;
+  height: 2.75rem;
+  transform: translate(-50%, -50%);
+  border: 1px solid #eef3df;
+  border-radius: .36rem;
+  color: #f0f8ec;
+  background: #1b4c38;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.global-map-boundary:hover { background: #2c6249; }
+.global-nasa-pin {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-.26rem, calc(-100% - 1.55rem));
+  display: flex;
+  gap: .45rem;
+  align-items: center;
+  padding: .3rem .45rem .3rem 0;
+  color: #10262b;
+  background: #d2f5ed;
+  border-radius: .28rem;
+  font-size: .75rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+.global-nasa-pin::before { content: ""; position: absolute; width: 1px; height: 1.55rem; background: #b8f5e5; left: .24rem; top: 100%; }
+.global-nasa-pin::after { content: ""; position: absolute; bottom: -1.7rem; left: .1rem; width: .34rem; height: .34rem; background: #b8f5e5; border-radius: 50%; }
+.global-nasa-pin i { display: inline-block; width: .53rem; height: .53rem; border: 1px solid #174743; border-radius: 50%; }
+.global-map-key {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .2rem .85rem;
+  padding-block: .62rem;
+  color: var(--muted);
+  font-size: .88rem;
+}
+.global-map-key > span { display: inline-flex; align-items: center; gap: .2rem; }
+.global-map-key i { width: .68rem; height: .68rem; border: 1px solid #245240; border-radius: .14rem; margin-inline-end: .14rem; }
+.global-terrain-credit { margin-inline-start: auto; font-size: .75rem; }
+.global-nasa-context {
+  margin-top: .35rem;
+  padding: .9rem 1.08rem;
+  border: 1px solid #c6dacd;
+  border-radius: .65rem;
+  color: #2d4c3d;
+  background: #edf4ec;
+}
+.global-nasa-context header { display: flex; align-items: baseline; flex-wrap: wrap; justify-content: space-between; gap: .45rem .85rem; }
+.global-nasa-context h3 { margin: 0; font-size: 1.07rem; }
+.global-nasa-context header a { font-size: .87rem; }
+.global-nasa-context dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin: .8rem 0 .4rem; }
+.global-nasa-context dt { font-size: .86rem; }
+.global-nasa-context dd { margin: .05rem 0 0; font-size: 1.45rem; line-height: 1.18; font-weight: 720; font-variant-numeric: tabular-nums; }
+.global-nasa-context p { margin-top: .36rem; font-size: .84rem; }
+.global-ndvi-legend { display: flex; align-items: center; gap: .65rem; margin-top: .65rem; padding-top: .6rem; border-top: 1px solid #c7d9cd; font-size: .84rem; }
+.global-ndvi-legend small { display: block; }
+.global-ndvi-ramp { width: clamp(3rem, 8vw, 5.5rem); flex-shrink: 0; height: .5rem; border-radius: .15rem; background: linear-gradient(90deg, #98603e, #d7ac61, #b6cc6e, #579b58, #154c3e); }
+.global-regional-sources { margin-top: 1rem; border-top: 1px solid #c9d7cc; padding-top: .65rem; color: #284435; }
+.global-regional-sources summary { font-weight: 650; min-block-size: 2.3rem; }
+.global-regional-sources ul { margin-block: .45rem; }
+
+@media (max-width: 63rem) {
+  .global-explorer-inner { grid-template-columns: minmax(14rem, .63fr) minmax(0, 1fr); min-height: max(40rem, calc(100svh - 4.25rem)); }
+  .global-orbit { height: clamp(27rem, 56vw, 44rem); }
+  .global-workbench { grid-template-columns: minmax(0, 1.25fr) minmax(18.5rem, 1fr); }
+}
+@media (max-width: 46rem) {
+  .global-explorer-inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "intro" "globe" "places" "credit";
+    grid-template-rows: auto;
+    padding-block-start: 1.65rem;
+    row-gap: .95rem;
+    min-height: auto;
+  }
+  .global-intro h1 { margin-block: .48rem .65rem; font-size: clamp(2.15rem, 7.8vw, 3rem); }
+  .global-orbit { height: clamp(18rem, 89vw, 32rem); max-height: none; }
+  .global-site-list button { padding-block: .5rem; }
+  .global-workbench { grid-template-columns: minmax(0, 1fr); }
+  .global-plot-map { aspect-ratio: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .global-plot-map, .global-map-image, .global-site-list button { animation: none; transition: none; }
+}
