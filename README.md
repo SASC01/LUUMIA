@@ -30,11 +30,20 @@ npm.cmd run dev:web
 
 Con una base vacía, `start-api.ps1` crea las tablas y carga el caso sintético de Don Tino, con la ficha evaluada v11, la lectura de KoboCollect de la ficha v10 y el plan v5 publicado. La carga incluye las versiones de ejemplo y usa identificadores de captura de demostración. Si la base ya contiene una ficha de Don Tino, el arranque respeta ese historial. Los datos de parcelas propias se capturan desde Parcela. [Carga de demostración](data/demo/don-tino.json)
 
+- **Inicio** abre la demo global con cinco ubicaciones y una simulación de siembra en USD. La vista funciona con los archivos incluidos en el frontend. [Abrir demo global](http://127.0.0.1:5174/#inicio)
 - **Parcela** abre un resumen con el cultivo actual, las condiciones disponibles y un siguiente paso. En «Cultivos y rotaciones» puedes registrar ciclos con sus fechas, comparar opciones para la siguiente siembra y usar el croquis para estimar cosecha y ganancia. [Abrir Parcela](http://127.0.0.1:5174/#parcela)
 - **Métricas** muestra el plan compartido de la parcela seleccionada. Permite documentar cupos, comparar la ganancia de las ventas registradas con la estimada y descargar los reportes. [Abrir Métricas](http://127.0.0.1:5174/#metricas) · [Recorrido de Parcela y Métricas](docs/PARCELA-Y-METRICAS.md)
 - **Demo** reúne la ficha de Don Tino, sus datos precargados, las vistas de NASA y los reportes del caso de ejemplo. [Abrir Demo](http://127.0.0.1:5174/#demo) · [Métricas de ejemplo](http://127.0.0.1:5174/#demo-metricas)
 - **API** en [127.0.0.1:8042/docs](http://127.0.0.1:8042/docs).
 - En «Demo», abre «Análisis ambiental» para consultar y registrar observaciones y «Cultivos y rotaciones» para comparar cultivos o simular una venta. En «Historial» puedes abrir la versión anterior. «Recalcular ficha» vuelve a aplicar el motor a la versión nueva.
+
+### Demo global
+
+El globo lleva a terrenos de ejemplo en Hopelchén, Tizimín, Iowa, Beauce y Mato Grosso. El croquis simula el contorno y permite repartir de 0.001 a 200 ha entre hasta cinco zonas. El panel compara ganancias en USD de la siembra por zonas y de cultivar cada alternativa en toda la parcela. El suelo, la humedad, el agua por ciclo, el rendimiento, el precio, el costo, la merma y el cupo son supuestos de ejemplo.
+
+«Datos NASA» alterna una cuadrícula HLS de vigor y las lecturas regionales de NASA POWER del 26 de octubre al 1 de noviembre de 2026. El terreno proviene de escenas Copernicus Sentinel-2 y el globo usa NASA Blue Marble. Cada región muestra sus fuentes oficiales de cultivos. El clima y las imágenes conservan fechas distintas y aparecen como contexto para la simulación. [NASA Blue Marble](https://science.nasa.gov/earth/earth-observatory/collections/blue-marble/) · [NASA POWER Daily API](https://power.larc.nasa.gov/docs/services/api/temporal/daily/) · [NASA HLS](https://hls.gsfc.nasa.gov/data-products/) · [Copernicus Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)
+
+Para regenerar las cuadrículas HLS desde los mismos encuadres de terreno, instala Rasterio, NumPy y Pillow y ejecuta `python scripts/prepare_global_ndvi.py`.
 
 ### Vistas de demostración
 

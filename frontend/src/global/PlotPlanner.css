@@ -1,0 +1,211 @@
+.world-planner {
+  min-width: 0;
+  padding: clamp(.95rem, 2vw, 1.4rem);
+  color: #172921;
+  background: #f5f7f1;
+  border: 1px solid #d8e3d8;
+  border-radius: .85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.world-planner-top h2 {
+  margin: 0 0 .85rem;
+  font-size: clamp(1.26rem, 2.4vw, 1.6rem);
+}
+
+.world-plan-area {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(5.7rem, .48fr);
+  align-items: start;
+  gap: .65rem;
+  padding: 0 0 .75rem;
+}
+
+.world-plan-area label {
+  padding-block: .56rem;
+  font-weight: 650;
+}
+
+.world-hectare-field { min-width: 0; }
+
+.world-hectare-input {
+  display: flex;
+  align-items: center;
+  min-height: 2.5rem;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #bdcabe;
+  background: #fff;
+  border-radius: .44rem;
+}
+
+.world-hectare-input:focus-within { outline: 2px solid #378154; outline-offset: 1px; }
+.world-hectare-input:has(input[aria-invalid="true"]) { border-color: #a44c38; }
+
+.world-hectare-input input {
+  width: 100%;
+  min-width: 0;
+  padding: .4rem .3rem .4rem .5rem;
+  height: 2.5rem;
+  border: 0;
+  font-weight: 660;
+  outline: none;
+  background: transparent;
+}
+
+.world-hectare-input > span {
+  display: block;
+  padding-inline-end: .45rem;
+  color: #486255;
+  font-size: .80rem;
+}
+
+.world-plot-error {
+  display: block;
+  padding-block-start: .26rem;
+  font-size: .78rem;
+  color: #833c2f;
+  overflow-wrap: anywhere;
+}
+
+.world-zone-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #d9e2d9;
+}
+
+.world-zone {
+  display: grid;
+  grid-template-columns: 1.5rem minmax(0, 1fr) minmax(4.15rem, .52fr) 2rem;
+  align-items: start;
+  gap: .37rem;
+  padding-block: .48rem;
+  border-bottom: 1px solid #d9e2d9;
+}
+
+.world-zone-color {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 1.36rem;
+  height: 1.36rem;
+  margin-top: .57rem;
+  border-radius: .27rem;
+  color: #1b2d24;
+  font-size: .77rem;
+  font-weight: 760;
+}
+
+.world-zone select {
+  min-height: 2.56rem;
+  min-width: 0;
+  padding-inline: .35rem;
+  border: 1px solid #bdcabe;
+  border-radius: .44rem;
+  background: #fff;
+  font-weight: 620;
+}
+
+.world-remove-zone {
+  display: grid;
+  place-items: center;
+  min-height: 2.56rem;
+  min-width: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: .36rem;
+  color: #354d40;
+  background: transparent;
+  font-size: 1.27rem;
+}
+
+.world-remove-zone:not(:disabled):hover { background: #e3ebe1; }
+.world-remove-zone:disabled { opacity: .45; }
+
+.world-zone-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .65rem;
+  margin-block: .41rem .9rem;
+}
+
+.world-zone-actions button {
+  padding: .35rem .25rem .35rem 0;
+  border: 0;
+  min-height: 2.3rem;
+  color: #296148;
+  background: transparent;
+  font-weight: 760;
+}
+
+.world-zone-actions button:not(:disabled):hover { text-decoration: underline; }
+.world-zone-actions small { color: #486255; text-align: right; }
+
+.world-estimate {
+  padding-block: .8rem;
+  border-block: 1px solid #d9e2d9;
+}
+
+.world-estimate h3 {
+  margin: 0 0 .1rem;
+  color: #365046;
+  font-size: .9rem;
+  font-weight: 640;
+}
+
+.world-margin {
+  display: block;
+  color: #1d5338;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -.05em;
+}
+
+.world-margin-loss { color: #8a3d2c; }
+.world-totals { display: flex; flex-wrap: wrap; gap: .15rem 1.35rem; margin: .55rem 0 0; }
+.world-totals > div { display: flex; align-items: baseline; gap: .35rem; }
+.world-totals dt { color: #486255; font-size: .82rem; }
+.world-totals dd { margin: 0; font-size: .86rem; font-weight: 660; }
+
+.world-recommendation {
+  margin: .8rem 0 .5rem;
+  padding: .72rem .78rem;
+  border-radius: .5rem;
+  background: #e5eee2;
+}
+
+.world-recommendation-label { color: #3f5e4f; font-size: .78rem; }
+
+.world-recommendation-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .17rem .7rem;
+  color: #1c4732;
+  line-height: 1.25;
+}
+
+.world-recommendation-title strong { font-size: 1.17rem; }
+.world-recommendation-title span { font-size: .98rem; font-weight: 700; }
+
+.world-recommendation > p:last-child { margin-top: .35rem; color: #365046; font-size: .84rem; }
+
+.world-planner-details { color: #365046; font-size: .85rem; }
+.world-planner-details summary { padding-block: .58rem; color: #254e39; font-weight: 680; }
+
+.world-assumptions { margin-block: .55rem; }
+.world-assumptions > div { display: flex; gap: .3rem .7rem; justify-content: space-between; }
+.world-assumptions dd { margin: 0; font-weight: 620; text-align: right; }
+
+@media (max-width: 360px) {
+  .world-zone {
+    grid-template-columns: 1.25rem minmax(0, 1fr) minmax(3.8rem, .6fr) 1.4rem;
+    gap: .3rem;
+  }
+  .world-remove-zone { min-width: 1.4rem; }
+  .world-zone-color { width: 1.19rem; height: 1.19rem; }
+  .world-hectare-input input { padding-left: .32rem; }
+}

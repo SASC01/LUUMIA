@@ -1,0 +1,114 @@
+.world-globe {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.world-globe-surface,
+.world-globe-surface canvas,
+.world-globe-markers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.world-globe-surface {
+  cursor: grab;
+  touch-action: none;
+}
+
+.world-globe-surface:active { cursor: grabbing; }
+.world-globe-surface:focus-visible { outline: 2px solid #93d8ad; outline-offset: -3px; }
+.world-globe-surface canvas,
+.world-globe-markers { pointer-events: none; }
+
+.world-globe-marker {
+  position: absolute;
+  top: var(--pin-y);
+  left: var(--pin-x);
+  transform: translate(-9px, -50%);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 32px;
+  padding: 0 0 0 18px;
+  border: 0;
+  border-radius: 5px;
+  color: #ecf7f1;
+  background: transparent;
+  white-space: nowrap;
+  pointer-events: auto;
+}
+
+.world-globe-marker[hidden] { display: none; }
+.world-globe-marker[data-side="left"] {
+  transform: translate(calc(-100% + 9px), -50%);
+  padding: 0 18px 0 0;
+}
+
+.world-globe-dot {
+  position: absolute;
+  display: block;
+  left: 4px;
+  top: 11px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ddffe7;
+  border-radius: 50%;
+  background: #66c78b;
+  box-shadow: 0 0 0 4px #b2f3c444, 0 0 15px #63e0ab99;
+}
+.world-globe-marker[data-side="left"] .world-globe-dot { left: auto; right: 4px; }
+
+.world-globe-label {
+  padding: 3px 8px 4px;
+  border: 1px solid #bfe5d143;
+  border-radius: 4px;
+  background: #061719ed;
+  font-size: 0.78rem;
+  font-weight: 670;
+  line-height: 1.1;
+  box-shadow: 0 3px 8px #0007;
+}
+
+.world-globe-marker:hover .world-globe-label,
+.world-globe-marker:focus-visible .world-globe-label,
+.world-globe-marker[aria-pressed="true"] .world-globe-label {
+  background: #bee7c7;
+  color: #111f16;
+}
+
+.world-globe-marker:focus-visible { outline: none; }
+.world-globe-marker:focus-visible .world-globe-label { outline: 2px solid #f4f9ee; outline-offset: 3px; }
+.world-globe-marker:hover .world-globe-dot,
+.world-globe-marker:focus-visible .world-globe-dot,
+.world-globe-marker[aria-pressed="true"] .world-globe-dot { background: #dfffe9; }
+
+.world-globe-motion {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 38px;
+  padding: 0 0.75rem;
+  border: 1px solid #a3c3b04f;
+  border-radius: 5px;
+  background: #091d20e6;
+  color: #eff6f0;
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+.world-globe-motion:hover { border-color: #a1d7b1; }
+.world-globe-motion:disabled { opacity: 0.55; cursor: default; }
+.world-globe-pause { width: 9px; height: 11px; border-inline: 3px solid #a1d7b1; }
+.world-globe-play { width: 0; height: 0; border-block: 5px solid transparent; border-left: 8px solid #a1d7b1; }
+
+@media (max-width: 500px) {
+  .world-globe-label { padding-inline: 5px; font-size: 0.72rem; }
+  .world-globe-motion { right: 0.55rem; bottom: 0.55rem; }
+}
